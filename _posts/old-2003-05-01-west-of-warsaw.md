@@ -12,8 +12,8 @@ categories: work
   <p>The stories are printed out and adhered together to create a single stream of text. The reader spins the cardboard tube along the central axis to view the next page. When the story is over, all of the paper is rolled back up again.</p>
 </div>
 <div id="media">
-  <img src="../images/portfolio/eastofwarsaw-0-525.jpg">
-  <img src="../images/portfolio/eastofwarsaw-1-525.jpg">
-  <img src="../images/portfolio/eastofwarsaw-2-525.jpg">
-  <img src="../images/portfolio/eastofwarsaw-3-525.jpg">
+  <img src="../assets/img/portfolio/eastofwarsaw-0-525.jpg">
+  <img src="../assets/img/portfolio/eastofwarsaw-1-525.jpg">
+  <img src="../assets/img/portfolio/eastofwarsaw-2-525.jpg">
+  <img src="../assets/img/portfolio/eastofwarsaw-3-525.jpg">
 </div>

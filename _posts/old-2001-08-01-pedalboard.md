@@ -11,9 +11,9 @@ categories: work
   <p>Aside from functioning as a physical base on which I can easily arrange and transport my effect pedals, the board also houses a power supply which I designed and built. This provides electricity to each of the pedals, eliminating the need for batteries. Additional outlets accommodate power adaptors and external lighting (for when I am rocking on a dark stage).</p>
 </div>
 <div id="media">
-  <img src="../images/portfolio/pedalboard-0-525.jpg">
-  <img src="../images/portfolio/pedalboard-1-525.jpg">
-  <img src="../images/portfolio/pedalboard-2-525.jpg">
-  <img src="../images/portfolio/pedalboard-3-525.jpg">
-  <img src="../images/portfolio/pedalboard-4-525.jpg">
+  <img src="../assets/img/portfolio/pedalboard-0-525.jpg">
+  <img src="../assets/img/portfolio/pedalboard-1-525.jpg">
+  <img src="../assets/img/portfolio/pedalboard-2-525.jpg">
+  <img src="../assets/img/portfolio/pedalboard-3-525.jpg">
+  <img src="../assets/img/portfolio/pedalboard-4-525.jpg">
 </div>

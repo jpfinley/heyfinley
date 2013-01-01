@@ -42,5 +42,5 @@ they won't be limited to expensive, space-consuming equipment.
 
 ![][25]
 
-   [24]: ../images/portfolio/storydrifter-0-620.png
-   [25]: ../images/portfolio/storydrifter-1-620.jpg
+   [24]: ../assets/img/portfolio/storydrifter-0-620.png
+   [25]: ../assets/img/portfolio/storydrifter-1-620.jpg

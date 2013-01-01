@@ -39,6 +39,6 @@ but to break up the mass of black text with some amount of ornamentation.
 
 ![][27]
 
-   [25]: ../images/portfolio/designvigilantsim-0-620.png
-   [26]: ../images/portfolio/designvigilantsim-1-620.png
-   [27]: ../images/portfolio/designvigilantsim-2-620.jpg
+   [25]: ../assets/img/portfolio/designvigilantsim-0-620.png
+   [26]: ../assets/img/portfolio/designvigilantsim-1-620.png
+   [27]: ../assets/img/portfolio/designvigilantsim-2-620.jpg

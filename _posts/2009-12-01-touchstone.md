@@ -37,7 +37,7 @@ contact. The Arduino source code can be found [here][24].
 
 ![][25] ![][26] ![][27] ![][28]
 
-   [25]: ../images/portfolio/touchstone-0-620.jpg
-   [26]: ../images/portfolio/touchstone-2-620.jpg
-   [27]: ../images/portfolio/touchstone-3-620.jpg
-   [28]: ../images/portfolio/touchstone-4-620.jpg
+   [25]: ../assets/img/portfolio/touchstone-0-620.jpg
+   [26]: ../assets/img/portfolio/touchstone-2-620.jpg
+   [27]: ../assets/img/portfolio/touchstone-3-620.jpg
+   [28]: ../assets/img/portfolio/touchstone-4-620.jpg

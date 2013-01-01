@@ -101,7 +101,7 @@ The Bright Points Project was recently featured on [Core 77][30].
 
   [30]: http://www.core77.com/blog/technology/sva_graduate_interaction_design_students_eye_the_high_line_16367.asp
 
-  [31]: ../images/portfolio/bright-points-project-0-620.jpg
-  [32]: ../images/portfolio/bright-points-project-4-620.png
-  [33]: ../images/portfolio/bright-points-project-1-620.png
-  [34]: ../images/portfolio/bright-points-project-3-620.jpg
+  [31]: ../assets/img/portfolio/bright-points-project-0-620.jpg
+  [32]: ../assets/img/portfolio/bright-points-project-4-620.png
+  [33]: ../assets/img/portfolio/bright-points-project-1-620.png
+  [34]: ../assets/img/portfolio/bright-points-project-3-620.jpg

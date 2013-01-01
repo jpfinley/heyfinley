@@ -39,8 +39,8 @@ At the core of this whole system, we believe, is our website. Here you can see a
 
 While the website is a start to making people aware of City Karma, we envisioned other ways to extend the awareness of the system. Once the data is in the system, it can be formatted and disseminated through various channels that vary in posture and might respond to different levels of user engagement. These include public displays, email newsletters, and maps showing the locations of good deeds throughout the city.
 
-  [0]: ../images/portfolio/city-karma-0-620.png
-  [1]: ../images/portfolio/city-karma-1-620.png
-  [2]: ../images/portfolio/city-karma-2-620.png
-  [3]: ../images/portfolio/city-karma-3-525.jpg
-  [4]: ../images/portfolio/city-karma-4-620.png
+  [0]: ../assets/img/portfolio/city-karma-0-620.png
+  [1]: ../assets/img/portfolio/city-karma-1-620.png
+  [2]: ../assets/img/portfolio/city-karma-2-620.png
+  [3]: ../assets/img/portfolio/city-karma-3-525.jpg
+  [4]: ../assets/img/portfolio/city-karma-4-620.png

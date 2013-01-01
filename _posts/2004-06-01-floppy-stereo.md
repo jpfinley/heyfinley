@@ -44,6 +44,6 @@ neglected experience.
 
 ![][24]
 
-   [24]: ../images/portfolio/floppystereo-0-620.jpg
-   [25]: ../images/portfolio/floppystereo-2-620.jpg
-   [26]: ../images/portfolio/floppystereo-1-620.jpg
+   [24]: ../assets/img/portfolio/floppystereo-0-620.jpg
+   [25]: ../assets/img/portfolio/floppystereo-2-620.jpg
+   [26]: ../assets/img/portfolio/floppystereo-1-620.jpg
