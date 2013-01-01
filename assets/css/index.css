@@ -1,0 +1,87 @@
+html { background-color: #FDFDFD; }
+
+body {
+  font-family: "vera-sans-1", "vera-sans-2", "Verdana", sans-serif;
+  font-size: 11px;
+  color: #6A5E58; line-height: 150%;
+}
+
+h1 { font-weight: bold; font-size: 18px; }
+h2 { font-weight: bold; font-size: 11px; }
+
+em, .proper { font-style: italic; }
+strong { font-weight: bold; }
+
+a { text-decoration: underline; color: #6A5E58; }
+a:hover { text-decoration: none; color: #FFFFFF; background-color: #6A5E58; }
+
+#page {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#wrap {
+  margin: 0 auto;
+  width: 93.75%; /* 900px / 960px */
+}
+
+#sidebar {
+  width: 15.5555556%; /* 140px / 900px */
+  float: left;
+  padding-left: 7.1428571%; /* 10px / 140px */
+  background-color: #FDFDFD;
+}
+
+  #logo a { text-decoration: none; }
+  #logo a:hover { text-decoration: none; color: #6A5E58; background-color: #FDFDFD; }
+
+  #sidebar div, #logo { padding-top: 30px; }
+  #sidebar div p { padding-bottom: 10px; }
+
+.portfolio-item { text-transform: lowercase; }
+
+#me { background: no-repeat top center url(../images/shoes.png); min-height: 450px; }
+
+
+/*CONTENT*/
+
+#content {
+  height: 100%;
+  width: 68.8888889%; /* 620px / 900px */
+  overflow: auto;
+  padding-left: 3.2258065%; /* 20px / 620px */
+  padding-top: 76px;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+#content h2 {
+  font-size: 18px;
+}
+
+#content p {
+  padding: 2.4193548% 0%; /* 15px / 620px */
+  margin: 0;
+}
+
+#content iframe {
+  margin: 20px 0;
+}
+
+/* TODO: wtf is this */
+.resume { float: left; }
+
+
+/* --------------------------------------------
+  iPad in portrait
+-------------------------------------------- */
+
+/*
+  TO PREVIEW ON THE DESKTOP, REPLACE THE QUERY WITH THE FOLLOW:
+  @media (max-width: 768px) {  }
+*/
+
+@media (max-width: 768px) {
+/*@media (max-device-width: 1024px) and (orientation: portrait) {*/
+  body { color: red; }
+}
