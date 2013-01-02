@@ -5,11 +5,6 @@ date: "December 2009"
 categories: work
 ---
 
-A group project with [Clint Beharry][22] and [Katie Koch][23].
-
-  [22]: http://leftrightoutput.com/
-  [23]: http://www.pixelkated.com/
-
 The Story Drifter is a tool that allows a person or a group of people to
 construct a non-linear narrative based on the context of an event and its
 connections with surrounding information. Our proposed tool uses stories,
@@ -36,7 +31,11 @@ Story Drifter can be adapted for small-scale use on a computer screen. This
 will allow more individuals to use the Drifter as a tool for exploration since
 they won't be limited to expensive, space-consuming equipment.
 
+Story Drifter was a group project with [Clint Beharry][22] and [Katie Koch][23].
+
 ![][25]
 
-   [24]: ../assets/img/portfolio/storydrifter-0-620.png
-   [25]: ../assets/img/portfolio/storydrifter-1-620.jpg
+  [22]: http://leftrightoutput.com/
+  [23]: http://www.pixelkated.com/
+  [24]: ../assets/img/portfolio/storydrifter-0-620.png
+  [25]: ../assets/img/portfolio/storydrifter-1-620.jpg

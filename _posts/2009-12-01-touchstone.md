@@ -5,14 +5,12 @@ categories: work
 date: "December 2009"
 ---
 
-A group project with Angela Huang and [Jeff Kirsch][23].
-
-   [23]: http://jeffkirsch.com/
-
 Spending too much time at the studio has made a number of us long for free
 time to spend with friends, family, and the people we love. The Touchstone is
 the result of a physical computing project investigating the communication
 between people separated by the obligations of school or work.
+
+Touchstone was a group project with Angela Huang and [Jeff Kirsch][23].
 
 <iframe src="http://player.vimeo.com/video/8071438?portrait=0" width="620" height="465" frameborder="0">hi</iframe>
 
@@ -29,11 +27,11 @@ the XBee radio, and capacitative sensors. The physical forms use various
 materials and shapes to remind the user what it was like to have human
 contact. The Arduino source code can be found [here][24].
 
-   [24]: http://github.com/jpfinley/touchstone
-
 ![][25] ![][26] ![][27] ![][28]
 
-   [25]: ../assets/img/portfolio/touchstone-0-620.jpg
-   [26]: ../assets/img/portfolio/touchstone-2-620.jpg
-   [27]: ../assets/img/portfolio/touchstone-3-620.jpg
-   [28]: ../assets/img/portfolio/touchstone-4-620.jpg
+  [23]: http://jeffkirsch.com/
+  [24]: http://github.com/jpfinley/touchstone
+  [25]: ../assets/img/portfolio/touchstone-0-620.jpg
+  [26]: ../assets/img/portfolio/touchstone-2-620.jpg
+  [27]: ../assets/img/portfolio/touchstone-3-620.jpg
+  [28]: ../assets/img/portfolio/touchstone-4-620.jpg
