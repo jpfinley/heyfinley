@@ -5,6 +5,11 @@ categories: work
 date: "December 2010"
 ---
 
+<ul class="breadcrumb">
+  <li><a href="#">Selected Work</a> <span class="divider">/</span></li>
+  <li class="active">{{ page.title }}</li>
+</ul>
+
 ## {{ page.title }}
 
 ### December 2010
@@ -15,7 +20,7 @@ I teamed up with [Colleen Miller](http://clickcolleen.com/) for this project, wh
 
 We both shared a wish for New Yorkers to understand consequences of choices with a big picture understanding, for a public that takes responsibility for itself. City Karma enables citizens to share positive stories to encourage behavior we would like to see in others.
 
-Karma as many people know it comes from Hinduism and Buddhism; it's the principle of retributive justice determining a person's state of life and the state of his reincarnations as the effect of his past deeds. Out classmate Clint Beharry had a much more immediate definition: *anything that makes people grateful for being in a great place is worth the effort*.
+Karma as many people know it comes from Hinduism and Buddhism; it's the principle of retributive justice determining a person's state of life and the state of his reincarnations as the effect of his past deeds. Our classmate Clint Beharry had a much more immediate definition: *anything that makes people grateful for being in a great place is worth the effort*.
 
 ![][2]
 

@@ -1,0 +1,59 @@
+<div id="sidebar">
+  <h1 id="logo"><a href="http://www.heyfinley.com/index.html">John Finley</a></h1>
+  <div>
+    <h2>about</h2>
+    <ul>
+      <li>brooklyn &amp; chicago</li>
+      <li>interaction designer at <a href="http://barbariangroup.com/">The Barbarian Group</a></li>
+  </div>
+  <div>
+    <h2>portfolio</h2>
+    <ul>
+      <li class="portfolio-item"><a href="http://www.heyfinley.com/thesis/">MFA Thesis: Locus</a></li>
+      {% for post in site.posts %}
+        <li class="portfolio-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <h2>furthermore</h2>
+    <p>
+      <a href="http://www.heyfinley.com/resume.html">resume</a> (<a href="http://www.heyfinley.com/Resume_John_Finley.pdf">pdf</a>)
+    </p>
+    <p>
+      <script type="text/javascript">
+        //<![CDATA[
+        <!--
+        var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
+        "harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
+        "\\\\,l=x.length;for(i=0;i<l;i++){if(i==7)y+=i;y%=127;o+=String.fromCharCode" +
+        "(x.charCodeAt(i)^(y++));}return o;}f(\\\"\\\\cgj\\\\\\\\177fica8`jpn~ps6=\\" +
+        "\\\\\\034@\\\\\\\\002KV@@\\\\\\\\032t\\\\\\\\013GJEAZ@\\\\\\\\n[BU][ZRAy]V]" +
+        "TR\\\\\\\\021#./|70$--*>v\\\\\\\\005m=;?!\\\\\\\\\\\"\\\\60u4.x 5..}):\\\\\\"+
+        "\\002\\\\\\\\022\\\\\\\\013\\\\\\\\027\\\\\\\\0019DG\\\\\\\\034\\\\\\\\000\\"+
+        "\\\\\\036\\\\\\\\007\\\\\\\\tP2M\\\\\\\\003\\\\\\\\024\\\\\\\\034\\\\\\\\02" +
+        "7T\\\\\\\\030\\\\\\\\023W\\\\\\\\031\\\\\\\\027Z\\\\\\\\036\\\\\\\\021\\\\\\"+
+        "\\034\\\\\\\\027l] =w`hc(do+mc.j}p{\\\\\\\\177(:w):0!+'\\\"\\\\,7)\\\"(f};)" +
+        "lo,0(rtsbus.o nruter};)i(tArahc.x=+o{)--i;0=>i;1-l=i(rof}}{)e(hctac};l=+l;x" +
+        "=+x{yrt{)99=!)31/l(tAedoCrahc.x(elihw;lo=l,htgnel.x=lo,\\\"\\\"=o,i rav{)x(" +
+        "f noitcnuf\")"                                                               ;
+        while(x=eval(x));
+        //-->
+        //]]>
+      </script>
+    </p>
+    <p>
+      <a href="http://daytum.com/jpfinley">daytum</a>
+      <a href="http://www.facebook.com/jpfinley">facebook</a>
+      <a href="http://foursquare.com/user/-29902">foursquare</a>
+      <a href="http://github.com/jpfinley">github</a>
+      <a href="http://www.google.com/reader/shared/jpfinley">greader</a>
+      <a href="http://www.last.fm/user/johnfinley9">last.fm</a>
+      <a href="http://www.linkedin.com/in/jpfinley">linkedin</a>
+      <a href="http://pinboard.in/u:jpfinley/">pinboard</a>
+      <a href="http://jpfinley.tumblr.com/">tumblr</a>
+      <a href="http://twitter.com/jpfinley">twitter</a>
+      <a href="http://vimeo.com/jpfinley">vimeo</a>
+    </p>
+  </div>
+</div><!-- sidebar -->
