@@ -5,10 +5,6 @@ categories: work
 date: "December 2009"
 ---
 
-## {{ page.title }}
-
-### December 2009
-
 A group project with Angela Huang and [Jeff Kirsch][23].
 
    [23]: http://jeffkirsch.com/

@@ -5,10 +5,6 @@ categories: work
 date: "December 2010"
 ---
 
-## {{ page.title }}
-
-### December 2010
-
 Jake Barton and Ian Curry of [Local Projects](http://localprojects.net/) taught our 'Public Interfaces' class. For the final project, we were to identify an opportunity and design a service for New York City. This could be a service for a single block, a neighborhood, a borough or the entire city. Its success will be determined by how it engages and services the public sphere.
 
 I teamed up with [Colleen Miller](http://clickcolleen.com/) for this project, which we titled **City Karma**.

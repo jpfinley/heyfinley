@@ -5,10 +5,6 @@ date: "June 2004"
 categories: work
 ---
 
-## {{ page.title }}
-
-### June 2004
-
 Floppy Stereo was an attempt to create a personal music jukebox. It is
 constructed out of a salvaged computer, LCD display, USB number pad, and
 multiple floppy diskettes.

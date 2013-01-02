@@ -5,10 +5,6 @@ date: "December 2009"
 categories: work
 ---
 
-## {{ page.title }}
-
-### December 2009
-
 A group project with [Clint Beharry][22] and [Katie Koch][23].
 
   [22]: http://leftrightoutput.com/

@@ -5,10 +5,6 @@ date: "October 2009"
 categories: work
 ---
 
-## {{ page.title }}
-
-### October 2009
-
 As part of a project in Jason Santa Maria's [Communicating Design][23] course,
 we were assigned to emulate [Cardon Webb's technique][24] of removing street
 fliers and replacing them with interpreted redesigns.

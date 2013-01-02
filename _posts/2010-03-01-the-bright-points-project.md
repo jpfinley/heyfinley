@@ -5,10 +5,6 @@ categories: work
 date: "March 2010"
 ---
 
-## The Bright Points Project
-
-### March 2010
-
 As a final assignment for [Jill Nussbaum][23]'s [Design for Public Spaces][24]
 course, we conceived of the Bright Points Project as a way for New Yorkers to
 experience something they don't see too often--the sunset. I designed and
