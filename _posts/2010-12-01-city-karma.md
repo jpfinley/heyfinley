@@ -5,11 +5,6 @@ categories: work
 date: "December 2010"
 ---
 
-<ul class="breadcrumb">
-  <li><a href="#">Selected Work</a> <span class="divider">/</span></li>
-  <li class="active">{{ page.title }}</li>
-</ul>
-
 ## {{ page.title }}
 
 ### December 2010
