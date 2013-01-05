@@ -3,6 +3,8 @@ layout: post
 title: "City Karma"
 categories: work
 date: "December 2010"
+thumbnail: "../assets/img/portfolio/city-karma-0-620.png"
+slug: "Designing a service for New York City residents to share good news."
 ---
 
 Jake Barton and Ian Curry of [Local Projects](http://localprojects.net/) taught our 'Public Interfaces' class. For the final project, we were to identify an opportunity and design a service for New York City. This could be a service for a single block, a neighborhood, a borough or the entire city. Its success will be determined by how it engages and services the public sphere.

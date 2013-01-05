@@ -3,6 +3,8 @@ layout: post
 title: "Design Vigilantism"
 date: "October 2009"
 categories: work
+thumbnail: "../assets/img/portfolio/city-karma-0-620.png"
+slug: "Designing a service for New York City residents to share good news."
 ---
 
 As part of a project in Jason Santa Maria's [Communicating Design][23] course,

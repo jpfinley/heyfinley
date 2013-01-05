@@ -3,6 +3,8 @@ layout: post
 title: "Touchstone"
 categories: work
 date: "December 2009"
+thumbnail: "../assets/img/portfolio/city-karma-0-620.png"
+slug: "Designing a service for New York City residents to share good news."
 ---
 
 Spending too much time at the studio has made a number of us long for free

@@ -3,6 +3,8 @@ layout: post
 title: "Floppy Stereo"
 date: "June 2004"
 categories: work
+thumbnail: "../assets/img/portfolio/city-karma-0-620.png"
+slug: "Designing a service for New York City residents to share good news."
 ---
 
 Floppy Stereo was an attempt to create a personal music jukebox. It is

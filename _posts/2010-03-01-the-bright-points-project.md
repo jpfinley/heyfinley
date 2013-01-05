@@ -3,6 +3,8 @@ layout: post
 title: "The Bright Points Project"
 categories: work
 date: "March 2010"
+thumbnail: "../assets/img/portfolio/city-karma-0-620.png"
+slug: "Designing a service for New York City residents to share good news."
 ---
 
 As a final assignment for [Jill Nussbaum][23]'s [Design for Public Spaces][24]
