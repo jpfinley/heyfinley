@@ -38,6 +38,15 @@ body {
   margin-top: 28px;
 }
 
+/* Index page */
+
+#hello {
+  margin-top: 10em;
+  margin-bottom: 4em;
+  padding: 2em;
+  background-color: red;
+}
+
 /* Post-specific stuff */
 
 /* Make the first paragraph stand out a bit.
