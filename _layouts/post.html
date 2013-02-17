@@ -9,8 +9,21 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-<h3>{{ page.date | date: "%B %Y" }}</h3>
+<h5>{{ page.date | date: "%B %Y" }}</h5>
 
 <div id="content">
   {{ content }}
 </div>
+
+<ul class="pager">
+  {% if page.previous %}
+  <li class="previous">
+    <a rel="prev" href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>
+  </li>
+  {% endif %}
+  {% if page.next %}
+  <li class="next">
+    <a rel="next" href="{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
