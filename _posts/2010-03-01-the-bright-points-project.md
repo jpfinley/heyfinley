@@ -95,7 +95,7 @@ lanterns nearby.
 
 ## Press
 
-The Bright Points Project was recently featured on [Core 77][30].
+The Bright Points Project was featured on [Core 77][30].
 
   [30]: http://www.core77.com/blog/technology/sva_graduate_interaction_design_students_eye_the_high_line_16367.asp
 
