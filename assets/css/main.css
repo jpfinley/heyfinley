@@ -49,6 +49,11 @@ body {
 
 /* Post-specific stuff */
 
+.postdate {
+  font-style: italic;
+  color: #999;
+}
+
 /* Make the first paragraph stand out a bit.
    Ripped out of bootstrap.css:654 */
 #content p:first-of-type {
