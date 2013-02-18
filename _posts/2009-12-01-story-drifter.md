@@ -13,7 +13,7 @@ connections with surrounding information. Our proposed tool uses stories,
 photos, videos, historical artifacts, names, dates, and anything else that
 could help to illustrate not only what happened, but why it happened.
 
-<iframe src="http://player.vimeo.com/video/8322838?portrait=0" width="620" height="465" frameborder="0">hi</iframe>
+{% vimeo 8322838 %}
 
 The Story Drifter helps build a non-sequential narrative through images,
 words, video and sound to provide context for the audience to begin making

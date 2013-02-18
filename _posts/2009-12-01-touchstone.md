@@ -14,7 +14,7 @@ between people separated by the obligations of school or work.
 
 Touchstone was a group project with Angela Huang and [Jeff Kirsch][23].
 
-<iframe src="http://player.vimeo.com/video/8071438?portrait=0" width="620" height="465" frameborder="0">hi</iframe>
+{% vimeo 8071438 %}
 
 The Touchstone responds to the touch of a human hand. Placing your hand on one
 of the devices causes both of them to respond with light. When your

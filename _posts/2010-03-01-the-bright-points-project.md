@@ -25,7 +25,7 @@ provides views of the Hudson River and the New Jersey skyline.
 
   [27]: http://thehighline.org/
 
-<iframe src="http://player.vimeo.com/video/10528836?portrait=0" width="620" height="349" frameborder="0">hi</iframe>
+{% vimeo 10528836 %}
 
 The Bright Points Project is our idea of what a summer program at the High
 Line could be. The High Line would open after hours for a limited number of
@@ -52,7 +52,7 @@ their lantern on the wall. Lanterns flash brilliantly when placed here to
 denote the receivership of the evening's light and the final stage in its
 lifecycle.
 
-<iframe src="http://player.vimeo.com/video/10565549?portrait=0" width="620" height="465" frameborder="0">hi</iframe>
+{% vimeo 10565549 %}
 
 ## Process
 
