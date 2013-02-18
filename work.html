@@ -16,8 +16,8 @@ layout: default
     <div class="row-fluid">
       {% for post in site.posts limit:2 offset: 0 %}
       <div class="span6">
-          <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
           <a href="{{ post.url }}"><img src="{{ post.thumbnail }}"></a>
+          <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
           <p>{{ post.slug }}</p>
         </div>
       {% endfor %}
@@ -26,9 +26,9 @@ layout: default
     <div class="row-fluid">
       {% for post in site.posts limit:2 offset: 2 %}
       <div class="span6">
-          <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
-          <a href="{{ post.url }}"><img src="{{ post.thumbnail }}"></a>
-          <p>{{ post.slug }}</p>
+        <a href="{{ post.url }}"><img src="{{ post.thumbnail }}"></a>
+        <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+        <p>{{ post.slug }}</p>
         </div>
       {% endfor %}
     </div>
@@ -36,8 +36,8 @@ layout: default
     <div class="row-fluid">
       {% for post in site.posts limit:2 offset: 4 %}
         <div class="span6">
-          <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
           <a href="{{ post.url }}"><img src="{{ post.thumbnail }}"></a>
+          <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
           <p>{{ post.slug }}</p>
         </div>
       {% endfor %}
@@ -47,8 +47,8 @@ layout: default
   <div class="visible-phone">
     {% for post in site.posts %}
       <div class="row-fluid">
-        <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
         <a href="{{ post.url }}"><img src="{{ post.thumbnail }}"></a>
+        <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
         <p>{{ post.slug }}</p>
       </div>
     {% endfor %}
