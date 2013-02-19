@@ -2,11 +2,10 @@
 layout: default
 ---
 
-<h1 class="page-header">{{ page.title }}</h2>
-
-<h5 class="postdate">{{ page.date | date: "%B %Y" }}</h5>
-
 <div id="content">
+  <h1 class="page-header">{{ page.title }}</h2>
+  <h5 class="postdate">{{ page.date | date: "%B %Y" }}</h5>
+
   {{ content }}
 </div>
 
