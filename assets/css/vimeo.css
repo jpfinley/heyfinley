@@ -1,5 +1,6 @@
 .video-container {
     position: relative;
+    margin-bottom: 1.875em; /* 30px / 16px */
     padding-bottom: 56.25%;
     padding-top: 30px;
     height: 0;
