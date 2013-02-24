@@ -2,6 +2,7 @@ body {
   padding-top: 20px;
   padding-bottom: 40px;
   font-size: 100%;
+  background-color: #f0e8e6;
 }
 
 /* Large desktop and up */
@@ -70,6 +71,18 @@ li, p {
 }
 p {
   margin-bottom: 1.875em; /* 30px / 16px */
+}
+
+
+/* ----------------------- Style Overrides ----------------------- */
+
+a {
+  color: #cb4b16;
+}
+
+a:hover {
+  color: #cb4b16;
+  text-decoration: none;
 }
 
 
