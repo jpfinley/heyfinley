@@ -72,37 +72,6 @@ p {
   margin-bottom: 1.875em; /* 30px / 16px */
 }
 
-/* Custom container */
-/* TODO: Remove once responsive type is sorted out */
-
-.container-narrow {
-  margin: 0 auto;
-  max-width: 700px;
-}
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-
-/* Supporting marketing content */
-/* TODO: Remove once Work page is sorted out */
-
-.marketing {
-  margin: 60px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
-}
-
-/* Index page */
-/* TODO: Remove ASAP */
-
-#hello {
-  margin-top: 10em;
-  margin-bottom: 4em;
-  padding: 2em;
-  background-color: #999;
-}
 
 /* Post-specific stuff */
 
