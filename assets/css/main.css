@@ -10,6 +10,7 @@ body {
   body {
     font-size: 150%;
   }
+  /*  TODO: switch #content for container*/
   #content {
     margin-right: auto;
     margin-left: auto;
@@ -65,14 +66,27 @@ h4 {
 h5 {
   font-size: 0.875em; /* 14px / 16px */
 }
+h6 {
+  font-size: 0.74375em; /* 11.9px / 16px */
+}
+
 li, p {
   font-size: 1em; /* 16px / 16px */
   line-height: 1.5625em; /* 25px / 16px */
 }
+
 p {
   margin-bottom: 1.875em; /* 30px / 16px */
 }
 
+dt, dd, li {
+  font-size: 0.8em; /* 16px / 16px */
+  line-height: 1.5625em; /* 25px / 16px */
+}
+
+.resume h4, .resume h5, .resume h6, .resume p, .resume li, .resume dt, .resume dd {
+/*  font-size: 66%;*/
+}
 
 /* ----------------------- Style Overrides ----------------------- */
 
@@ -85,6 +99,20 @@ a:hover {
   text-decoration: none;
 }
 
+dd {
+  margin-left: 0;
+}
+
+.lead {
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-size: 1.3125em; /* 21px / 16px */
+  line-height: 1.428571429em;  /* 30px / 21px */
+}
+
+.job-title, .job-location {
+/*  color: #999;*/
+}
 
 /* Post-specific stuff */
 
@@ -96,12 +124,4 @@ a:hover {
 .postdate {
   font-style: italic;
   color: #999;
-}
-
-/* Make the first paragraph stand out a bit.
-   Ripped out of bootstrap.css:654 */
-#content p:first-of-type {
-  margin-bottom: 20px;
-  font-size: 1.3125em; /* 21px / 16px */
-  line-height: 1.428571429em;  /* 30px / 21px */
 }
