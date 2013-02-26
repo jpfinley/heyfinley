@@ -10,6 +10,9 @@ body {
   body {
     font-size: 150%;
   }
+  .resume h4, .resume h5, .resume h6, .resume p, .resume li, .resume dt, .resume dd {
+    font-size: 100%;
+  }
   /*  TODO: switch #content for container*/
   #content {
     margin-right: auto;
@@ -23,6 +26,9 @@ body {
   body {
     font-size: 130%;
   }
+  .resume h4, .resume h5, .resume h6, .resume p, .resume li, .resume dt, .resume dd {
+    font-size: 86.666666667%;
+  }
   #content {
     margin-right: auto;
     margin-left: auto;
@@ -34,6 +40,9 @@ body {
 @media (min-width: 768px) and (max-width: 979px) {
   body {
     font-size: 115%;
+  }
+  .resume h4, .resume h5, .resume h6, .resume p, .resume li, .resume dt, .resume dd {
+    font-size: 76.666666667%;
   }
   #content {
     margin-right: auto;
@@ -84,9 +93,6 @@ dt, dd, li {
   line-height: 1.5625em; /* 25px / 16px */
 }
 
-.resume h4, .resume h5, .resume h6, .resume p, .resume li, .resume dt, .resume dd {
-/*  font-size: 66%;*/
-}
 
 /* ----------------------- Style Overrides ----------------------- */
 
