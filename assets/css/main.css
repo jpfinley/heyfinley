@@ -26,9 +26,10 @@ body {
   body {
     font-size: 130%;
   }
-  .resume h4, .resume h5, .resume h6, .resume p, .resume li, .resume dt, .resume dd {
-    font-size: 86.666666667%;
+  .resume h4, .resume h5, .resume h6, .resume li, .resume dt, .resume dd {
+/*    font-size: 86.666666667%;*/
   }
+
   #content {
     margin-right: auto;
     margin-left: auto;
@@ -41,8 +42,14 @@ body {
   body {
     font-size: 115%;
   }
-  .resume h4, .resume h5, .resume h6, .resume p, .resume li, .resume dt, .resume dd {
-    font-size: 76.666666667%;
+  .resume h4, .resume h5, .resume h6, .resume dt, .resume dd {
+/*    font-size: 76.666666667%;*/
+  }
+  .resume h4 {
+    margin-bottom: 1.5em;
+  }
+  .resume p, .resume li, .resume dt, .resume dd {
+    font-size: 90%;
   }
   #content {
     margin-right: auto;
@@ -107,6 +114,7 @@ a:hover {
 
 dd {
   margin-left: 0;
+  margin-bottom: 0.5em;
 }
 
 .lead {
@@ -116,8 +124,9 @@ dd {
   line-height: 1.428571429em;  /* 30px / 21px */
 }
 
-.job-title, .job-location {
-/*  color: #999;*/
+.job-location {
+  color: #666;
+  font-weight: normal;
 }
 
 /* Post-specific stuff */
