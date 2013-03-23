@@ -2,22 +2,27 @@ body {
   padding-top: 20px;
   padding-bottom: 40px;
   font-size: 100%;
-  background-color: #f0e8e6;
+/*  background-color: #f0e8e6;*/
 }
 
 /* Large desktop and up */
 @media (min-width: 1200px) {
   body {
-    font-size: 150%;
+    font-size: 140%;
   }
-  .resume h4, .resume h5, .resume h6, .resume p, .resume li, .resume dt, .resume dd {
-    font-size: 100%;
+  .resume p, .resume li, .resume dt, .resume dd, .resume h4, .resume h5, .resume h6 {
+    font-size: 80%;
   }
   /*  TODO: switch #content for container*/
   #content {
     margin-right: auto;
     margin-left: auto;
     max-width: 62.5%; /* 700px / 1170px */
+  }
+  .masthead, .container > hr, .footer {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 69.652174%;
   }
 }
 
@@ -26,14 +31,18 @@ body {
   body {
     font-size: 130%;
   }
-  .resume h4, .resume h5, .resume h6, .resume li, .resume dt, .resume dd {
-/*    font-size: 86.666666667%;*/
+  .resume p, .resume li, .resume dt, .resume dd, .resume h4, .resume h5, .resume h6 {
+    font-size: 80%;
   }
-
   #content {
     margin-right: auto;
     margin-left: auto;
     max-width: 70.6521739%; /* 650px / 920px */
+  }
+  .masthead, .container > hr, .footer {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 77.652174%;
   }
 }
 
@@ -42,14 +51,8 @@ body {
   body {
     font-size: 115%;
   }
-  .resume h4, .resume h5, .resume h6, .resume dt, .resume dd {
-/*    font-size: 76.666666667%;*/
-  }
-  .resume h4 {
-    margin-bottom: 1.5em;
-  }
-  .resume p, .resume li, .resume dt, .resume dd {
-    font-size: 90%;
+  .resume p, .resume li, .resume dt, .resume dd, .resume h4, .resume h5, .resume h6 {
+    font-size: 80%;
   }
   #content {
     margin-right: auto;
@@ -59,10 +62,16 @@ body {
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) { ... }
+@media (max-width: 767px) {
+  #content, .masthead, .container > hr, .footer {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 90.4696133%; /* 655px / 724px */
+  }
+}
 
 /* Landscape phones and down */
-@media (max-width: 480px) { ... }
+/*@media (max-width: 480px) { ... }*/
 
 
 /* Typography */
@@ -86,6 +95,27 @@ h6 {
   font-size: 0.74375em; /* 11.9px / 16px */
 }
 
+.resume h4 {
+  text-transform: uppercase;
+  font-size: 0.75em; /* 13px / 16px */
+  color: rgb(124, 124, 124);
+  margin-bottom: 1.5em;
+}
+.resume h5 {
+  margin-bottom: 0;
+}
+.resume h6 {
+  margin-top: 0;
+  font-size: 0.6875em; /* 11px / 16px */
+}
+.resume h4, .resume h5, .resume h6, .resume dt, .resume dd {
+/*    font-size: 76.666666667%;*/
+}
+.resume p, .resume li, .resume dt, .resume dd {
+/*  font-size: 80%;*/
+  line-height: 1.1875em; /* 19px / 16px */
+}
+
 li, p {
   font-size: 1em; /* 16px / 16px */
   line-height: 1.5625em; /* 25px / 16px */
@@ -100,6 +130,9 @@ dt, dd, li {
   line-height: 1.5625em; /* 25px / 16px */
 }
 
+.footer p {
+  font-size: 16px;
+}
 
 /* ----------------------- Style Overrides ----------------------- */
 
