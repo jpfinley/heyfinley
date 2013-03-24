@@ -162,7 +162,9 @@ dd {
   font-weight: normal;
 }
 
-/* Post-specific stuff */
+
+/* ----------------------- Post-specific stuff ----------------------- */
+
 
 #content h1.page-header {
   margin-top: 30px;
@@ -172,4 +174,9 @@ dd {
 .postdate {
   font-style: italic;
   color: #999;
+}
+#content > p > img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
