@@ -145,6 +145,16 @@ a:hover {
   text-decoration: none;
 }
 
+::-moz-selection {
+  background-color: #cb4b16;
+  color: #99CCFF;
+  }
+
+::selection {
+  background-color: #cb4b16;
+  color: #99CCFF;
+}
+
 dd {
   margin-left: 0;
   margin-bottom: 0.5em;
