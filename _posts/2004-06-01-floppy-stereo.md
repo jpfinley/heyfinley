@@ -4,7 +4,7 @@ title: "Floppy Stereo"
 date: "June 2004"
 categories: work
 thumbnail: "../assets/img/portfolio/floppy-stereo-thumbnail.png"
-slug: "Designing a service for New York City residents to share good news."
+slug: "Repurposing old technology for musical ceremony."
 ---
 
 Floppy Stereo was an attempt to create a personal music jukebox. It is
@@ -21,7 +21,7 @@ the disk, and play it. With everything on a hard drive, playing the same track
 was reduced to a few clicks.
 
 I missed the selection, the album art, and the dusty trays and hand-written
-CD-Rs. The absence of the compact disk reminded of another format that had
+CD-Rs. The absence of the compact disk reminded me of another format that had
 recently gone away: the 3.5" floppy diskette.
 
 ![][25]

@@ -4,7 +4,7 @@ title: "Story Drifter"
 date: "December 2009"
 categories: work
 thumbnail: "../assets/img/portfolio/story-drifter-thumbnail.png"
-slug: "Designing a service for New York City residents to share good news."
+slug: "Exploratory learning and discovery made easy."
 ---
 
 The Story Drifter is a tool that allows a person or a group of people to

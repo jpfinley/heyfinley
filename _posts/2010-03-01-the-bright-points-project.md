@@ -4,7 +4,7 @@ title: "The Bright Points Project"
 categories: work
 date: "March 2010"
 thumbnail: "../assets/img/portfolio/bright-points-project-thumbnail.png"
-slug: "Designing a service for New York City residents to share good news."
+slug: "Creating a shared experience for visitors of the High Line."
 ---
 
 As a final assignment for [Jill Nussbaum][23]'s [Design for Public Spaces][24]

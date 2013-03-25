@@ -4,7 +4,7 @@ title: "Touchstone"
 categories: work
 date: "December 2009"
 thumbnail: "../assets/img/portfolio/touchstone-thumbnail.png"
-slug: "Designing a service for New York City residents to share good news."
+slug: "It's like holding hands over the internet."
 ---
 
 Spending too much time at the studio has made a number of us long for free

@@ -4,7 +4,7 @@ title: "Design Vigilantism"
 date: "October 2009"
 categories: work
 thumbnail: "../assets/img/portfolio/design-vigilantsim-thumbnail.png"
-slug: "Designing a service for New York City residents to share good news."
+slug: "A makeover for an unlikely client: my own apartment building."
 ---
 
 As part of a project in Jason Santa Maria's [Communicating Design][23] course,
