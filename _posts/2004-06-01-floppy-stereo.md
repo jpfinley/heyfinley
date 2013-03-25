@@ -3,7 +3,7 @@ layout: post
 title: "Floppy Stereo"
 date: "June 2004"
 categories: work
-thumbnail: "../assets/img/portfolio/city-karma-0-620.png"
+thumbnail: "../assets/img/portfolio/floppy-stereo-thumbnail.png"
 slug: "Designing a service for New York City residents to share good news."
 ---
 

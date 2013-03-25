@@ -3,7 +3,7 @@ layout: post
 title: "Design Vigilantism"
 date: "October 2009"
 categories: work
-thumbnail: "../assets/img/portfolio/city-karma-0-620.png"
+thumbnail: "../assets/img/portfolio/design-vigilantsim-thumbnail.png"
 slug: "Designing a service for New York City residents to share good news."
 ---
 

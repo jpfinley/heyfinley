@@ -3,7 +3,7 @@ layout: post
 title: "Touchstone"
 categories: work
 date: "December 2009"
-thumbnail: "../assets/img/portfolio/city-karma-0-620.png"
+thumbnail: "../assets/img/portfolio/touchstone-thumbnail.png"
 slug: "Designing a service for New York City residents to share good news."
 ---
 

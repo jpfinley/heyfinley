@@ -3,7 +3,7 @@ layout: post
 title: "The Bright Points Project"
 categories: work
 date: "March 2010"
-thumbnail: "../assets/img/portfolio/city-karma-0-620.png"
+thumbnail: "../assets/img/portfolio/bright-points-project-thumbnail.png"
 slug: "Designing a service for New York City residents to share good news."
 ---
 
