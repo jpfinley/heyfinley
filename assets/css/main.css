@@ -73,7 +73,17 @@ body {
 /*@media (max-width: 480px) { ... }*/
 
 
-/* Typography */
+/* ----------------------- Typography ----------------------- */
+
+body {
+  font-family: "pt-sans-1","pt-sans-2";
+/*  font-family: "adelle-1","adelle-2";*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "adelle-1","adelle-2";
+/*  font-family: "pt-sans-1","pt-sans-2";*/
+}
 
 h1, .hero-unit h1 {
   font-size: 3.75em; /* 60px / 16px */
