@@ -32,23 +32,23 @@ Line could be. The High Line would open after hours for a limited number of
 visitors just before sunset on Thursday nights (a big night for restaurant &
 art gallery openings in the nearby Chelsea neighborhood).
 
-Each visitor would receive a High Line Lantern upon arrival. The lantern would
+Each visitor would receive a High Line Lantern upon arrival. The Lantern would
 be carried along by the visitors as they traveled north along the park from
 Gansevoort Street to roughly 20th Street.
 
-At the moment the sun sets below the Hudson, lanterns begin to illuminate,
+At the moment the sun sets below the Hudson, the Lanterns begin to illuminate,
 symbolizing a continuation of the sunset and a personal duty the visitor has
-in its maintenance. As lanterns come close to one another, they grow in
+in its maintenance. As Lanterns come close to one another, they grow in
 brightness, encouraging interactions between the program's attendees. The High
 Line becomes transformed into a stream of pinpoints, each a visitor carrying
 on the light left behind by the setting sun.
 
 ![][31]
 
-Visitor's travel northward along the park's path until they reach the 17th
-street amphitheater. Here, the experience culminates in the Sunset Wall. A
+Visitors travel northward along the park's path until they reach the 17th
+street amphitheater. Here, the experience culminates at the Sunset Wall. A
 musician here sets the mood for visitors as they walk down the steps and place
-their lantern on the wall. Lanterns flash brilliantly when placed here to
+their Lantern on the wall. Lanterns flash brilliantly when placed here to
 denote the receivership of the evening's light and the final stage in its
 lifecycle.
 
@@ -65,7 +65,7 @@ Line park."
 We began with visits to the park to familiarize ourselves with the environment
 and conduct man-on-the-street interviews. We asked visitors about the nature
 of their visit, their use of smartphones and other technology, and what they
-liked about the High Line experience. We also interviewed Blake DeBore, an
+liked about the High Line experience. We also interviewed Blake DeBoer, an
 Associate with [Taconic Builders][28] and High Line & architectural
 enthusiast.
 
@@ -88,8 +88,8 @@ audience in believing our story.
 
 And just to make our presentation all the more believable, we created physical
 prototypes of the Bright Points Lanterns. Using an [Arduino][29]
-microcontroller, the lanterns illuminate at sunset and respond to other
-lanterns nearby.
+microcontroller, the Lanterns illuminate at sunset and respond to other
+Lanterns nearby.
 
   [29]: http://arduino.cc/
 

@@ -23,11 +23,11 @@ To test out our idea, we put together a simple paper prototype asking people in 
 
 We looked to a framework we learned this semester in our service design class to grow our prototype into the final product. This four-part cycle of awareness and participation starts with making people aware of what you have to offer. Only then can they respond to any call to join or use the service. Once they are a stakeholder, the next step is to provide them with ways to contribute, participate, or otherwise grow the service. When they have done so, the framework provides them with a way of sharing their experience and hopefully making the people around them aware of the service.
 
-We marketed City Karma in a variety of formats, including street hondouts, status updates on twitter, local papers and neighborhood blogs. In the limited time we had, we took City Karma from the walls of studio to the streets & the web.
+We marketed City Karma in a variety of formats, including street handouts, status updates on twitter, local papers and neighborhood blogs. In the limited time we had, we took City Karma from the walls of studio to the streets & the web.
 
 ![][0]
 
-We're inviting people to join City Karma through the positive messages shared on twitter. Any positive City Karma messages can be shared with a note to the @citykarma account or by using the hashtag. We also had a phone number set up, and we imagine a web presence where it's easy to add your message right then and there.
+We invited people to join City Karma through the positive messages shared on twitter. Any positive City Karma messages can be shared with a note to the @citykarma account or by using the hashtag. We also had a phone number set up, and we imagine a web presence where it's easy to add your message right then and there.
 
 ![][1]
 

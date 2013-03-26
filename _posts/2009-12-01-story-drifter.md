@@ -11,13 +11,13 @@ The Story Drifter is a tool that allows a person or a group of people to
 construct a non-linear narrative based on the context of an event and its
 connections with surrounding information. Our proposed tool uses stories,
 photos, videos, historical artifacts, names, dates, and anything else that
-could help to illustrate not only what happened, but why it happened.
+could help to illustrate not only *what* happened, but *why* it happened.
 
 {% vimeo 8322838 %}
 
-The Story Drifter helps build a non-sequential narrative through images,
-words, video and sound to provide context for the audience to begin making
-connections about the topics presented to them. It encourages the audience to
+The Story Drifter builds a non-sequential narrative through images,
+words, video, and sound to provide a foundation from which the audience can make
+connections about the lesson. It encourages the audience to
 ask why an event happened, instead of simply asking them to memorize a set of
 facts about a particular event.
 

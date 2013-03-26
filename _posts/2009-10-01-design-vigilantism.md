@@ -30,10 +30,10 @@ Akzidenz has a history dating back to the 1900s, shortly before the apartment
 building was constructed. And like my apartment, Akzidenz has received many
 additions and alterations in its long history. Specific variants that I used
 emulate the tall & narrow shapes I found in the building's windows, as well as
-providing a strong foundation to the flyer's appearance.
+provide a strong foundation to the flyer's appearance.
 
-Yellow is used throughout to not only help identify the document as a warning,
-but to break up the mass of black text with some amount of ornamentation.
+Yellow is used throughout not only to help identify the document as a warning,
+but also to break up the mass of black text with some amount of ornamentation.
 
 ![][27]
 
