@@ -1,0 +1,7 @@
+# robots.txt generated at http://www.mcanerin.com
+User-agent: *
+Disallow: 
+Disallow: /commentator/
+Disallow: /eileen/
+Disallow: /sva/
+Sitemap: http://heyfinley.com/sitemap.xml
