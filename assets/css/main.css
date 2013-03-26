@@ -198,7 +198,6 @@ dd {
   line-height: 0.975609756em; /* (82 / 40) * 2 */
 }
 .postdate {
-  font-style: italic;
   color: #999;
 }
 #content > p > img {
