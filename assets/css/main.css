@@ -214,3 +214,13 @@ dd {
 .pager li > a:hover {
   background-color: #fff;
 }
+
+/* ----------------------- Work-specific stuff ----------------------- */
+
+.post-group {
+  margin-bottom: 1.5em;
+}
+
+.post-group > a > img {
+  border: 1px solid #999;
+}
