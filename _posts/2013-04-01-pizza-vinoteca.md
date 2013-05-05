@@ -74,6 +74,6 @@ And after our visual designers took a crack at it:
 
 The order tracking display gives takeout customers an idea of the time remaining until their food is ready. Their name given at the kiosk is added to a running list of other waiting customers on a bank of three large HD displays.
 
-{% video ../assets/img/portfolio/pizzavinoteca-animation-trim.m4v ../assets/img/portfolio/pizzavinoteca-animation-thumbnail.png %}
+{% video ../assets/img/portfolio/pizzavinoteca-animation.m4v ../assets/img/portfolio/pizzavinoteca-animation-thumbnail.png %}
 
 Using data provided by the kitchen's back of house ordering system we can approximate how long until their food is ready. The remainder of the display is used to show entertaining content, such as everyday objects translated into Italian.
