@@ -126,7 +126,7 @@ li, p {
   line-height: 1.5625em; /* 25px / 16px */
 }
 
-p {
+ul, p {
   margin-bottom: 1.875em; /* 30px / 16px */
 }
 
