@@ -14,7 +14,7 @@ presented the Bright Points Project along with Angela Huang, [Chia-wei
 Liu][25], and [Gene Lu][26].
 
   [23]: http://interactiondesign.sva.edu/faculty/profile/jill_nussbaum/
-  [24]: http://interactiondesign.sva.edu/classes/designforpublicspaces/
+  [24]: http://interactiondesign.sva.edu/curriculum/mfa-program
   [25]: http://www.csie.ntu.edu.tw/~r93122/
   [26]: http://www.genelu.com/
 
