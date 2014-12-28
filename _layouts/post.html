@@ -8,7 +8,7 @@ layout: default
 
   {{ content }}
 
-  <ul class="pager visible-phone">
+  <ul class="pager visible-xs">
     {% if page.previous %}
       <li><a rel="prev" href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a></li>
     {% endif %}
@@ -17,7 +17,7 @@ layout: default
     {% endif %}
   </ul>
 
-  <ul class="pager hidden-phone">
+  <ul class="pager hidden-xs">
     {% if page.next %}
       <li class="previous">
         <a rel="prev" href="{{ page.next.url }}">&larr; {{ page.next.title }}</a>

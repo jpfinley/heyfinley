@@ -1,3 +1,4 @@
-auto: true
-
+name: John Finley's Online Portfolio
 permalink: none
+markdown: redcarpet
+highlighter: pygments

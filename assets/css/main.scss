@@ -1,8 +1,18 @@
+---
+---
+
+/* ----------------------- Variables ----------------------- */
+
+
+
+
+/* ----------------------- Scale and Responsive ----------------------- */
+
 body {
   padding-top: 20px;
   padding-bottom: 40px;
-  font-size: 100%;
-/*  background-color: #f0e8e6;*/
+//  font-size: 150%;
+/*  background-color: #f0e8e6; */
 }
 
 /* Large desktop and up */
@@ -11,12 +21,13 @@ body {
     font-size: 140%;
   }
   .resume p, .resume li, .resume dt, .resume dd, .resume h4, .resume h5, .resume h6 {
-    font-size: 80%;
+//    font-size: 80%;
   }
   #content {
     margin-right: auto;
     margin-left: auto;
-    max-width: 62.5%; /* 700px / 1170px */
+    max-width: 62.5%;
+    /* 700px / 1170px */
   }
   .masthead, .container > hr, .footer {
     margin-right: auto;
@@ -31,12 +42,13 @@ body {
     font-size: 130%;
   }
   .resume p, .resume li, .resume dt, .resume dd, .resume h4, .resume h5, .resume h6 {
-    font-size: 80%;
+//    font-size: 80%;
   }
   #content {
     margin-right: auto;
     margin-left: auto;
-    max-width: 70.6521739%; /* 650px / 920px */
+    max-width: 70.6521739%;
+    /* 650px / 920px */
   }
   .masthead, .container > hr, .footer {
     margin-right: auto;
@@ -48,29 +60,65 @@ body {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
   body {
-    font-size: 115%;
+    font-size: 120%;
   }
   .resume p, .resume li, .resume dt, .resume dd, .resume h4, .resume h5, .resume h6 {
-    font-size: 80%;
+//    font-size: 80%;
   }
   #content {
     margin-right: auto;
     margin-left: auto;
-    max-width: 90.4696133%; /* 655px / 724px */
+    max-width: 90.4696133%;
+    /* 655px / 724px */
   }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+  body {
+    font-size: 120%;
+  }
   #content, .masthead, .container > hr, .footer {
     margin-right: auto;
     margin-left: auto;
-    max-width: 90.4696133%; /* 655px / 724px */
+    max-width: 90.4696133%;
+    /* 655px / 724px */
   }
 }
 
 /* Landscape phones and down */
 /*@media (max-width: 480px) { ... }*/
+
+
+/* ----------------------- Images and Video ----------------------- */
+
+// These make the images responsive
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Vimeo-specific
+.video-container {
+    position: relative;
+    margin-bottom: 1.875em;
+    /* 30px / 16px */
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+// Vimeo-specific
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 
 /* ----------------------- Typography ----------------------- */
@@ -86,27 +134,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, .hero-unit h1 {
-  font-size: 3.75em; /* 60px / 16px */
+//  font-size: 3.75em;
+  /* 60px / 16px */
 }
 h2 {
-  font-size: 2em; /* 32px / 16px */
+//  font-size: 2em;
+  /* 32px / 16px */
 }
 h2 {
-  font-size: 2em; /* 32px / 16px */
+//  font-size: 2em;
+  /* 32px / 16px */
 }
 h4 {
-  font-size: 1.125em; /* 18px / 16px */
+//  font-size: 1.125em;
+  /* 18px / 16px */
 }
 h5 {
-  font-size: 0.875em; /* 14px / 16px */
+//  font-size: 0.875em;
+  /* 14px / 16px */
 }
 h6 {
-  font-size: 0.74375em; /* 11.9px / 16px */
+//  font-size: 0.74375em;
+  /* 11.9px / 16px */
 }
 
 .resume h4 {
   text-transform: uppercase;
-  font-size: 0.75em; /* 13px / 16px */
+//  font-size: 0.75em;
+  /* 13px / 16px */
   color: rgb(124, 124, 124);
   margin-bottom: 1.5em;
 }
@@ -115,28 +170,35 @@ h6 {
 }
 .resume h6 {
   margin-top: 0;
-  font-size: 0.6875em; /* 11px / 16px */
+//  font-size: 0.6875em;
+  /* 11px / 16px */
 }
 .resume p, .resume li, .resume dt, .resume dd {
-  line-height: 1.1875em; /* 19px / 16px */
+//  line-height: 1.1875em;
+  /* 19px / 16px */
 }
 
 li, p {
-  font-size: 1em; /* 16px / 16px */
-  line-height: 1.5625em; /* 25px / 16px */
+//  font-size: 1.14285714285714em;
+  /* 16px / 14px */
+//  line-height: 1.42857142857143em;
+  /* 20px / 14px */
 }
 
-p {
-  margin-bottom: 1.875em; /* 30px / 16px */
+ul, p {
+  margin-bottom: 1.875em;
+  /* 30px / 16px */
 }
 
 dt, dd, li {
-  font-size: 0.8em; /* 16px / 16px */
-  line-height: 1.5625em; /* 25px / 16px */
+//  font-size: 0.8em;
+  /* 16px / 16px */
+//  line-height: 1.5625em;
+  /* 25px / 16px */
 }
 
 .footer p {
-  font-size: 16px;
+//  font-size: 16px;
 }
 
 /* ----------------------- Style Overrides ----------------------- */
@@ -195,7 +257,8 @@ dd {
 #content h1.page-header {
   margin-top: 30px;
   border: none;
-  line-height: 0.975609756em; /* (82 / 40) * 2 */
+  line-height: 0.975609756em;
+  /* (82 / 40) * 2 */
 }
 .postdate {
   color: #999;
@@ -221,6 +284,6 @@ dd {
   margin-bottom: 1.5em;
 }
 
-.post-group > a > img {
+img {
   border: 1px solid #999;
 }
