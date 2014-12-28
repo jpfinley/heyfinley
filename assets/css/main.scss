@@ -90,13 +90,36 @@ body {
 /*@media (max-width: 480px) { ... }*/
 
 
-/* ----------------------- Layout ----------------------- */
+/* ----------------------- Images and Video ----------------------- */
 
+// These make the images responsive
 img {
   max-width: 100%;
   height: auto;
-  // These last two make the images responsive
 }
+
+// Vimeo-specific
+.video-container {
+    position: relative;
+    margin-bottom: 1.875em;
+    /* 30px / 16px */
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+// Vimeo-specific
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 /* ----------------------- Typography ----------------------- */
 
