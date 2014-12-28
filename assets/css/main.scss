@@ -90,6 +90,14 @@ body {
 /*@media (max-width: 480px) { ... }*/
 
 
+/* ----------------------- Layout ----------------------- */
+
+img {
+  max-width: 100%;
+  height: auto;
+  // These last two make the images responsive
+}
+
 /* ----------------------- Typography ----------------------- */
 
 body {
