@@ -47,7 +47,11 @@
       {{ content }}
       <hr>
       <div class="footer">
-        <p>© John Finley {{ site.time | date: "%Y" }}</p>
+        <p>© John Finley 
+          <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script>
+        </p>
       </div>
     </div><!-- container-narrow -->
 
