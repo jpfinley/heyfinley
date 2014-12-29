@@ -221,11 +221,6 @@ dd {
   /* 30px / 21px */
 }
 
-.job-date {
-  color: $dark-gray-color;
-  font-weight: normal;
-}
-
 
 /* ----------------------- Resume-specific stuff ----------------------- */
 
@@ -256,6 +251,11 @@ dd {
   padding-left: 20px;
 }
 
+.job-date {
+  color: $dark-gray-color;
+  font-weight: normal;
+}
+
 
 /* ----------------------- Post-specific stuff ----------------------- */
 
@@ -275,13 +275,12 @@ dd {
   margin-left: auto;
 }
 .pager li > a, .pager li > span {
-  background-color: $light-gray-color;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
 .pager li > a:hover {
-  background-color: $white-color;
+  background-color: $light-gray-color;
 }
 
 /* ----------------------- Work-specific stuff ----------------------- */
