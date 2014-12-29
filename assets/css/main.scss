@@ -153,29 +153,6 @@ h6 {
   /* 14px / 16px */
 }
 
-.resume h4 {
-  text-transform: uppercase;
-  color: rgb(124, 124, 124);
-  margin-top: 1.71428571428571em;
-  margin-bottom: 1.14285714285714em;
-  /* 16px / 14px */
-}
-.resume h5 {
-  margin-bottom: 0;
-  font-family: $body-font;
-  font-weight: 700;
-  // match the font-weight Bootstrap gives to <dd>s
-}
-.resume h6 {
-  margin-top: 0.28571428571429em;
-}
-.resume p, .resume li, .resume dt, .resume dd {
-  font-size: 1em;
-  /* 14px / 14px */
-  line-height: 1.1875em;
-  /* 19px / 16px */
-}
-
 li, p {
   font-size: 1.14285714285714em;
   /* 16px / 14px */
@@ -247,6 +224,36 @@ dd {
 .job-date {
   color: $dark-gray-color;
   font-weight: normal;
+}
+
+
+/* ----------------------- Resume-specific stuff ----------------------- */
+
+
+.resume h4 {
+  text-transform: uppercase;
+  color: rgb(124, 124, 124);
+  margin-top: 1.71428571428571em;
+  margin-bottom: 1.14285714285714em;
+  /* 16px / 14px */
+}
+.resume h5 {
+  margin-bottom: 0;
+  font-family: $body-font;
+  font-weight: 700;
+  // match the font-weight Bootstrap gives to <dd>s
+}
+.resume h6 {
+  margin-top: 0.28571428571429em;
+}
+.resume p, .resume li, .resume dt, .resume dd {
+  font-size: 1em;
+  /* 14px / 14px */
+  line-height: 1.1875em;
+  /* 19px / 16px */
+}
+.resume ul {
+  padding-left: 20px;
 }
 
 
