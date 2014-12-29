@@ -3,7 +3,16 @@
 
 /* ----------------------- Variables ----------------------- */
 
+$body-font: "pt-sans-1","pt-sans-2";
+$header-font: "adelle-1","adelle-2";
 
+$link-color: #CB4B16;
+$link-hover-color: #CB4B16;
+
+$white-color: #FFFFFF;
+$light-gray-color: #F5F5F5;
+$mid-gray-color: #999999;
+$dark-gray-color: #666666;
 
 
 /* ----------------------- Scale and Responsive ----------------------- */
@@ -11,8 +20,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 40px;
-//  font-size: 150%;
-/*  background-color: #f0e8e6; */
+  font-size: 100%;
 }
 
 /* Large desktop and up */
@@ -21,7 +29,7 @@ body {
     font-size: 140%;
   }
   .resume p, .resume li, .resume dt, .resume dd, .resume h4, .resume h5, .resume h6 {
-//    font-size: 80%;
+    font-size: 80%;
   }
   #content {
     margin-right: auto;
@@ -42,7 +50,7 @@ body {
     font-size: 130%;
   }
   .resume p, .resume li, .resume dt, .resume dd, .resume h4, .resume h5, .resume h6 {
-//    font-size: 80%;
+    font-size: 80%;
   }
   #content {
     margin-right: auto;
@@ -60,10 +68,10 @@ body {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
   body {
-    font-size: 120%;
+    font-size: 115%;
   }
   .resume p, .resume li, .resume dt, .resume dd, .resume h4, .resume h5, .resume h6 {
-//    font-size: 80%;
+    font-size: 80%;
   }
   #content {
     margin-right: auto;
@@ -124,43 +132,41 @@ img {
 /* ----------------------- Typography ----------------------- */
 
 body {
-  font-family: "pt-sans-1","pt-sans-2";
-/*  font-family: "adelle-1","adelle-2";*/
+  font-family: $body-font;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "adelle-1","adelle-2";
-/*  font-family: "pt-sans-1","pt-sans-2";*/
+  font-family: $header-font;
 }
 
 h1, .hero-unit h1 {
-//  font-size: 3.75em;
+  font-size: 3.75em;
   /* 60px / 16px */
 }
 h2 {
-//  font-size: 2em;
+  font-size: 2em;
   /* 32px / 16px */
 }
 h2 {
-//  font-size: 2em;
+  font-size: 2em;
   /* 32px / 16px */
 }
 h4 {
-//  font-size: 1.125em;
+  font-size: 1.125em;
   /* 18px / 16px */
 }
 h5 {
-//  font-size: 0.875em;
+  font-size: 0.875em;
   /* 14px / 16px */
 }
 h6 {
-//  font-size: 0.74375em;
+  font-size: 0.74375em;
   /* 11.9px / 16px */
 }
 
 .resume h4 {
   text-transform: uppercase;
-//  font-size: 0.75em;
+  font-size: 0.75em;
   /* 13px / 16px */
   color: rgb(124, 124, 124);
   margin-bottom: 1.5em;
@@ -170,18 +176,18 @@ h6 {
 }
 .resume h6 {
   margin-top: 0;
-//  font-size: 0.6875em;
+  font-size: 0.6875em;
   /* 11px / 16px */
 }
 .resume p, .resume li, .resume dt, .resume dd {
-//  line-height: 1.1875em;
+  line-height: 1.1875em;
   /* 19px / 16px */
 }
 
 li, p {
-//  font-size: 1.14285714285714em;
+  font-size: 1.14285714285714em;
   /* 16px / 14px */
-//  line-height: 1.42857142857143em;
+  line-height: 1.42857142857143em;
   /* 20px / 14px */
 }
 
@@ -191,35 +197,35 @@ ul, p {
 }
 
 dt, dd, li {
-//  font-size: 0.8em;
+  font-size: 0.8em;
   /* 16px / 16px */
-//  line-height: 1.5625em;
+  line-height: 1.5625em;
   /* 25px / 16px */
 }
 
 .footer p {
-//  font-size: 16px;
+  font-size: 16px;
 }
 
 /* ----------------------- Style Overrides ----------------------- */
 
 a {
-  color: #cb4b16;
+  color: $link-color;
 }
 
 a:hover {
-  color: #cb4b16;
+  color: $link-color;
   text-decoration: none;
 }
 
 ::-moz-selection {
-  background-color: #cb4b16;
-  color: #FFFFFF;
+  background-color: $link-color;
+  color: $white-color;
 }
 
 ::selection {
-  background-color: #cb4b16;
-  color: #FFFFFF;
+  background-color: $link-color;
+  color: $white-color;
 }
 
 .nav-pills > li > a {
@@ -230,7 +236,7 @@ a:hover {
 
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover {
-  background-color: #f5f5f5;
+  background-color: $mid-gray-color;
 }
 
 dd {
@@ -241,12 +247,14 @@ dd {
 .post > p:first-of-type {
   font-weight: normal;
   margin-bottom: 20px;
-  font-size: 1.3125em; /* 21px / 16px */
-  line-height: 1.428571429em;  /* 30px / 21px */
+  font-size: 1.3125em;
+  /* 21px / 16px */
+  line-height: 1.428571429em;
+  /* 30px / 21px */
 }
 
-.job-location {
-  color: #666;
+.job-date {
+  color: $dark-gray-color;
   font-weight: normal;
 }
 
@@ -261,7 +269,7 @@ dd {
   /* (82 / 40) * 2 */
 }
 .postdate {
-  color: #999;
+  color: $mid-gray-color;
 }
 #content > p > img {
   display: block;
@@ -269,13 +277,13 @@ dd {
   margin-left: auto;
 }
 .pager li > a, .pager li > span {
-  background-color: #f5f5f5;
+  background-color: $light-gray-color;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
 .pager li > a:hover {
-  background-color: #fff;
+  background-color: $white-color;
 }
 
 /* ----------------------- Work-specific stuff ----------------------- */
@@ -285,5 +293,5 @@ dd {
 }
 
 img {
-  border: 1px solid #999;
+  border: 1px solid $mid-gray-color;
 }
