@@ -14,6 +14,10 @@ $light-gray-color: #F5F5F5;
 $mid-gray-color: #999999;
 $dark-gray-color: #666666;
 
+$lg-width: 69.652174%; /* 700px / 1170px */
+$md-width: 77.652174%;
+$sm-width: 90.4696133%; /* 655px / 724px */
+
 
 /* ----------------------- Scale and Responsive ----------------------- */
 
@@ -22,7 +26,7 @@ body {
   font-size: 170%;
 }
 
-#content, .container > hr, .footer {
+#content, hr, .footer {
   margin-right: auto;
   margin-left: auto;
 }
@@ -31,12 +35,8 @@ body {
 //
 //
 @media (min-width: 1200px) {
-  #content {
-    max-width: 62.5%;
-    /* 700px / 1170px */
-  }
-  .container > hr, .footer {
-    max-width: 69.652174%;
+  .navbar > .container-fluid, .jumbotron .container, #content, hr, .footer {
+    width: $lg-width;
   }
 }
 
@@ -47,12 +47,8 @@ body {
   body {
     font-size: 160%;
   }
-  #content {
-    max-width: 70.6521739%;
-    /* 650px / 920px */
-  }
-  .container > hr, .footer {
-    max-width: 77.652174%;
+  .navbar > .container-fluid, .jumbotron .container, #content, hr, .footer {
+    width: $md-width;
   }
 }
 
@@ -63,13 +59,8 @@ body {
   body {
     font-size: 150%;
   }
-  #content {
-    max-width: 90.4696133%;
-    /* 655px / 724px */
-  }
-  .container > hr, .footer {
-    max-width: 90.4696133%;
-    /* 655px / 724px */
+  .navbar > .container-fluid, .jumbotron .container, #content, hr, .footer {
+    width: $sm-width;
   }
 }
 
@@ -80,16 +71,10 @@ body {
   body {
     font-size: 150%;
   }
-  #content, .container > hr, .footer {
-    max-width: 90.4696133%;
-    /* 655px / 724px */
+  .navbar > .container-fluid, .jumbotron .container, #content, hr, .footer {
+    width: $sm-width;
   }
 }
-
-/* Landscape phones and down */
-//
-//
-/*@media (max-width: 480px) { ... }*/
 
 
 /* ----------------------- Typography ----------------------- */
@@ -206,8 +191,6 @@ dd {
 
 .navbar .container-fluid {
   padding: 0px;
-  max-width: 70.6521739%;
-  /* 650px / 920px */
 }
 
 .navbar-collapse {
@@ -226,12 +209,10 @@ dd {
 
 .jumbotron .container {
   padding: 0px;
-  max-width: 70.6521739%;
-  /* 650px / 920px */
 }
 
 .jumbotron {
-  background-color: orange;
+//  background-color: orange;
 }
 
 
