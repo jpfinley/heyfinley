@@ -37,13 +37,14 @@
     \/_____/```\/_____/```\/_/\/_/```\/_/`\/_/``````\/_/`````\/_/```\/_/`\/_/```\/_____/```\/_____/```\/_____/`
     ```````````````````````````````````````````````````````````````````````````````````````````````````````````
      -->
-    <div class="container">
-      <div class="masthead">
-        <ul class="nav nav-pills">
-          <li><a href="/">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-        </ul>
-      </div>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li><a href="/">About</a></li>
+            <li><a href="/work.html">Work</a></li>
+          </ul>
+        </div><!-- /.container-fluid -->
+      </nav>
       {{ content }}
       <hr>
       <div class="footer">
@@ -53,7 +54,6 @@
           </script>
         </p>
       </div>
-    </div><!-- container-narrow -->
 
     <!-- New JS -->
     <script src="http://code.jquery.com/jquery-latest.js"></script>
