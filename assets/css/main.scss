@@ -6,8 +6,10 @@
 $body-font: "pt-sans-1","pt-sans-2";
 $header-font: "adelle-1","adelle-2";
 
-$link-color: #CB4B16;
-$link-hover-color: #CB4B16;
+//$link-color: #CB4B16;
+$orange:       #E6550D;
+$mid-orange:   #FDAE6B;
+$light-orange: #FEE6CE;
 
 $white-color: #FFFFFF;
 $light-gray-color: #F5F5F5;
@@ -137,21 +139,21 @@ dt, dd, li {
 /* ----------------------- Style Overrides ----------------------- */
 
 a {
-  color: $link-color;
+  color: $orange;
 }
 
 a:hover {
-  color: $link-color;
+  color: $orange;
   text-decoration: none;
 }
 
 ::-moz-selection {
-  background-color: $link-color;
+  background-color: $orange;
   color: $white-color;
 }
 
 ::selection {
-  background-color: $link-color;
+  background-color: $orange;
   color: $white-color;
 }
 
@@ -161,9 +163,8 @@ a:hover {
           border-radius: 0;
 }
 
-.nav-pills > .active > a,
-.nav-pills > .active > a:hover {
-  background-color: $mid-gray-color;
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: $mid-orange;
 }
 
 dd {
@@ -184,7 +185,7 @@ dd {
 /* ----------------------- Navbar ----------------------- */
 
 #navigation {
-  background-color: orange;
+  background-color: $light-orange;
 }
 
 
@@ -195,7 +196,7 @@ dd {
 }
 
 .jumbotron {
-  background-color: orange;
+  background-color: $mid-orange;
 }
 
 
