@@ -9,15 +9,11 @@ layout: default
   </div>
 </div>
 <div id="content">
-  <div id="selected-work" class="row">
-    <div class="">
-      {% for post in site.posts %}
-        <div class="row-fluid post-group">
-          <a href="{{ post.url }}"><img src="{{ post.thumbnail }}"></a>
-          <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
-          <p>{{ post.slug }}</p>
-        </div>
-      {% endfor %}
-    </div>
-  </div><!-- selected-work -->
+{% for post in site.posts %}
+  <div class="row-fluid post-group">
+    <a href="{{ post.url }}"><img src="{{ post.thumbnail }}"></a>
+    <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+    <p>{{ post.slug }}</p>
+  </div>
+{% endfor %}
 </div>
