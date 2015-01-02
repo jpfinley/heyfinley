@@ -26,7 +26,7 @@ body {
   font-size: 170%;
 }
 
-#content, hr, .footer {
+ul.nav-pills, #content, hr, .footer {
   margin-right: auto;
   margin-left: auto;
 }
@@ -35,7 +35,7 @@ body {
 //
 //
 @media (min-width: 1200px) {
-  .navbar > .container-fluid, .jumbotron .container, #content, hr, .footer {
+  ul.nav-pills, .jumbotron .container, #content, hr, .footer {
     width: $lg-width;
   }
 }
@@ -47,7 +47,7 @@ body {
   body {
     font-size: 160%;
   }
-  .navbar > .container-fluid, .jumbotron .container, #content, hr, .footer {
+  ul.nav-pills, .jumbotron .container, #content, hr, .footer {
     width: $md-width;
   }
 }
@@ -59,7 +59,7 @@ body {
   body {
     font-size: 150%;
   }
-  .navbar > .container-fluid, .jumbotron .container, #content, hr, .footer {
+  ul.nav-pills, .jumbotron .container, #content, hr, .footer {
     width: $sm-width;
   }
 }
@@ -71,7 +71,7 @@ body {
   body {
     font-size: 150%;
   }
-  .navbar > .container-fluid, .jumbotron .container, #content, hr, .footer {
+  ul.nav-pills, .jumbotron .container, #content, hr, .footer {
     width: $sm-width;
   }
 }
@@ -183,25 +183,8 @@ dd {
 
 /* ----------------------- Navbar ----------------------- */
 
-.navbar {
-  border-radius: 0px;
-  border: none;
-  margin-bottom: 0px;
-}
-
-.navbar .container-fluid {
-  padding: 0px;
-}
-
-.navbar-collapse {
-  padding: 0px;
-}
-
-.nav > li {
-  display: inline-block;
-}
-.nav li a:first-of-type {
-  padding-left: 0px;
+#navigation {
+  background-color: orange;
 }
 
 
@@ -212,7 +195,7 @@ dd {
 }
 
 .jumbotron {
-//  background-color: orange;
+  background-color: orange;
 }
 
 
@@ -313,4 +296,3 @@ img {
 .post-group {
   margin-bottom: 1.5em;
 }
-
