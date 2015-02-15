@@ -77,3 +77,8 @@ The order tracking display gives takeout customers an idea of the time remaining
 {% video ../assets/img/portfolio/pizzavinoteca-animation.m4v ../assets/img/portfolio/pizzavinoteca-animation-thumbnail.png %}
 
 Using data provided by the kitchen's back of house ordering system we can approximate how long until their food is ready. The remainder of the display is used to show entertaining content, such as everyday objects translated into Italian.
+
+## Press
+
+- [Art of the Menu](http://www.underconsideration.com/artofthemenu/archives/pizza_vinoteca.php)
+- [Business Insider Photo Tour](http://www.businessinsider.com/high-tech-pizza-vinoteca-in-new-york-2014-5?op=1)
