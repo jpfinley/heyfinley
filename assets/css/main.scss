@@ -189,6 +189,9 @@ dd {
 .nav>li>a:hover, .nav>li>a:focus {
   background-color: $light-orange;
 }
+#breadcrumb {
+  display: none;
+}
 
 
 /* ----------------------- Jumbotron ----------------------- */

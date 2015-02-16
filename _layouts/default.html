@@ -42,6 +42,7 @@
         <ul class="nav nav-pills">
           <li><a href="/">About</a></li>
           <li><a href="/work.html">Work</a></li>
+          <li id="breadcrumb"><a href="/work.html">Pizza Vinoteca</a></li>
         </ul>
       </div>
     </div>
@@ -54,6 +55,18 @@
         </script>
       </p>
     </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(window).scroll(function() {
+      if ($(this).scrollTop() > 110){  
+          $('#breadcrumb').fadeIn();
+        }
+        else{
+          $('#breadcrumb').fadeOut();
+        }
+      });
+    </script>
 
     <!-- Google Analytics -->
     <script type="text/javascript">
