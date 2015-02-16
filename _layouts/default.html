@@ -42,7 +42,9 @@
         <ul class="nav nav-pills">
           <li><a href="/">About</a></li>
           <li><a href="/work.html">Work</a></li>
-          <li id="breadcrumb"><a href="/work.html">Pizza Vinoteca</a></li>
+          {% if page.title %}
+            <li id="breadcrumb"><a href="/work.html">{{ page.title }}</a></li>
+          {% endif %}
         </ul>
       </div>
     </div>
