@@ -38,7 +38,7 @@
     ```````````````````````````````````````````````````````````````````````````````````````````````````````````
      -->
 
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav id="navigation" class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -49,13 +49,13 @@
           </button>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ol class="breadcrumb">
+          <ul class="nav navbar-nav">
             <li><a href="/">About</a></li>
             <li><a href="/work.html">Work</a></li>
             {% if page.title %}
-              <li id="tail" class="hideable"><a href="#">{{ page.title }}</a></li>
+              <li id="tail" class="hideable"><a href="#"><span>&rsaquo;</span>{{ page.title }}</a></li>
             {% endif %}
-          </ol>
+          </ul>
           {% if page.title %}
             <ul class="nav navbar-nav navbar-right hideable">
               <li><a href="#">&larr;</a></li>
