@@ -189,10 +189,20 @@ dd {
 .nav>li>a:hover, .nav>li>a:focus {
   background-color: $light-orange;
 }
-#breadcrumb {
-  display: none;
-}
 
+.breadcrumb {
+  margin-bottom: 0;
+  background-color: none;
+}
+.breadcrumb>li+li:before {
+    padding: none;
+    content: none;
+}
+.breadcrumb>li+li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0"
+}
 
 /* ----------------------- Jumbotron ----------------------- */
 
