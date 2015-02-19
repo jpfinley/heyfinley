@@ -30,10 +30,6 @@ body {
   font-size: 170%;
 }
 
-//.navbar .container {
-//  margin-left: 0;
-//}
-
 #content, hr, .footer {
   margin-right: auto;
   margin-left: auto;
@@ -43,7 +39,7 @@ body {
 //
 //
 @media (min-width: 1200px) {
-  .jumbotron, #content, hr, .footer {
+  .jumbotron>.container, #content, hr, .footer {
     width: $lg-width;
   }
   #navigation>.container {
@@ -59,7 +55,7 @@ body {
   body {
     font-size: 160%;
   }
-  .jumbotron, #content, hr, .footer {
+  .jumbotron>.container, #content, hr, .footer {
     width: $md-width;
   }
   #navigation>.container {
@@ -70,15 +66,12 @@ body {
 
 /* Portrait tablet to landscape and desktop */
 //
-// Subtract the content's width from the width
-// of the page to get the total margin as a percentage.
-// Divide by 4 to cut one side's margin in half.
 //
 @media (min-width: 768px) and (max-width: 979px) {
   body {
     font-size: 150%;
   }
-  .jumbotron, #content, hr, .footer {
+  .jumbotron>.container, #content, hr, .footer {
     width: $sm-width;
   }
   #navigation>.container {
@@ -89,6 +82,9 @@ body {
 
 /* Landscape phone to portrait tablet */
 //
+// Subtract the content's width from the width
+// of the page to get the total margin as a percentage.
+// Divide by 4 to cut one side's margin in half.
 //
 @media (max-width: 767px) {
   body {
@@ -100,8 +96,11 @@ body {
   div#navbar {
     margin: 0 (100% - $sm-width)/ 4;
   }
-  .jumbotron .container, #content, hr, .footer {
+  .jumbotron>.container, #content, hr, .footer {
     width: $sm-width;
+  }
+  .jumbotron>.container {
+    margin: 0;
   }
 }
 
@@ -224,10 +223,6 @@ dd {
 
 
 /* ----------------------- Jumbotron ----------------------- */
-
-.jumbotron .container {
-  padding: 0px;
-}
 
 .jumbotron {
   background-color: $light-orange;
