@@ -221,6 +221,13 @@ dd {
   padding-right: 10px;
 }
 
+// Seems hacky. Needed to vertically align
+// Pager links in header for works at
+// the beginning or end of the list.
+li.previous, li.next {
+  margin-top: 11px;
+}
+
 
 /* ----------------------- Jumbotron ----------------------- */
 
