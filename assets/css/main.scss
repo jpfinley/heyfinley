@@ -30,7 +30,11 @@ body {
   font-size: 170%;
 }
 
-ul.nav-pills, #content, hr, .footer {
+//.navbar .container {
+//  margin-left: 0;
+//}
+
+#content, hr, .footer {
   margin-right: auto;
   margin-left: auto;
 }
@@ -39,8 +43,12 @@ ul.nav-pills, #content, hr, .footer {
 //
 //
 @media (min-width: 1200px) {
-  ul.nav-pills, .jumbotron .container, #content, hr, .footer {
+  .jumbotron, #content, hr, .footer {
     width: $lg-width;
+  }
+  #navigation>.container {
+    width: $lg-width;
+    padding: 0;
   }
 }
 
@@ -51,20 +59,31 @@ ul.nav-pills, #content, hr, .footer {
   body {
     font-size: 160%;
   }
-  ul.nav-pills, .jumbotron .container, #content, hr, .footer {
+  .jumbotron, #content, hr, .footer {
     width: $md-width;
+  }
+  #navigation>.container {
+    width: $md-width;
+    padding: 0;
   }
 }
 
 /* Portrait tablet to landscape and desktop */
 //
+// Subtract the content's width from the width
+// of the page to get the total margin as a percentage.
+// Divide by 4 to cut one side's margin in half.
 //
 @media (min-width: 768px) and (max-width: 979px) {
   body {
     font-size: 150%;
   }
-  ul.nav-pills, .jumbotron .container, #content, hr, .footer {
+  .jumbotron, #content, hr, .footer {
     width: $sm-width;
+  }
+  #navigation>.container {
+    width: $sm-width;
+    padding: 0;
   }
 }
 
@@ -75,7 +94,13 @@ ul.nav-pills, #content, hr, .footer {
   body {
     font-size: 150%;
   }
-  ul.nav-pills, .jumbotron .container, #content, hr, .footer {
+  ul.nav > li {
+    float: left;
+  }
+  div#navbar {
+    margin: 0 (100% - $sm-width)/ 4;
+  }
+  .jumbotron .container, #content, hr, .footer {
     width: $sm-width;
   }
 }
