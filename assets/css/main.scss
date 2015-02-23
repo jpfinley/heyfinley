@@ -24,7 +24,7 @@ $sm-width: 90.4696133%; /* 655px / 724px */
 /* ----------------------- Scale and Responsive ----------------------- */
 
 body {
-  //  padding-top to accomodate fixed header
+  // padding-top to accomodate fixed header
   padding-top: 50px;
   padding-bottom: 40px;
   font-size: 170%;
@@ -170,7 +170,26 @@ a {
 
 a:hover {
   color: $orange;
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: $orange;
+  border-bottom: 4px solid $mid-orange;
+  transition: all .20s ease-in-out;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: $orange;
+  border-bottom: 4px solid $orange;
+}
+
+#tail>a:hover {
+  border-bottom: 4px dashed $mid-orange;
+}
+
+.navbar-default .navbar-nav>li {
+  color: $mid-gray-color;
 }
 
 ::-moz-selection {
