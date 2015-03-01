@@ -37,35 +37,80 @@
     \/_____/```\/_____/```\/_/\/_/```\/_/`\/_/``````\/_/`````\/_/```\/_/`\/_/```\/_____/```\/_____/```\/_____/`
     ```````````````````````````````````````````````````````````````````````````````````````````````````````````
      -->
-    <div id="navigation">
-      <ul class="nav nav-pills">
-        <li><a href="/">About</a></li>
-        <li><a href="/work.html">Work</a></li>
-      </ul>
-    </div>
+
+    <nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div id="navbar">
+          <ul class="nav navbar-nav">
+            <li><a href="/">About</a></li>
+            <li><a href="/work.html">Work</a></li>
+            {% if page.title %}
+              <li id="tail" class="hideable hidden-xs"><a href="#"><span>&rsaquo;</span>{{ page.title }}</a></li>
+            {% endif %}
+          </ul>
+          {% if page.title %}
+            <ul class="nav navbar-nav navbar-right hideable hidden-xs">
+              {% if page.previous %}
+                <li><a href="{{ page.previous.url }}">&larr;</a></li>
+              {% else %}
+                <li class="previous">&larr;</li>
+              {% endif %}
+              {% if page.next %}
+                <li><a href="{{ page.next.url }}">&rarr;</a></li>
+              {% else %}
+                <li class="next">&rarr;</li>
+              {% endif %}
+            </ul>
+          {% endif %}
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
     {{ content }}
+
     <hr>
     <div class="footer">
-      <p>© John Finley 
+      <p>© John Finley
         <script type="text/javascript">
           document.write(new Date().getFullYear());
         </script>
       </p>
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+      $('.hideable').hide(0);
+      $(window).scroll(function() {
+      if ($(this).scrollTop() > 110){
+          $('.hideable').fadeIn();
+          // TODO: animate in from bottom
+        }
+        else{
+          $('.hideable').fadeOut();
+          // TODO: animate out to bottom
+        }
+      });
+
+      $('#breadcrumb').click(function(event) {
+        event.preventDefault();
+        $('html, body').animate({scrollTop: 0}, 'slow');
+        return false;
+      });
+    </script>
+
     <!-- Google Analytics -->
     <script type="text/javascript">
-
+      
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-7236506-2']);
       _gaq.push(['_trackPageview']);
-
+      
       (function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-
+    
     </script>
   </body>
 </html>

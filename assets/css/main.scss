@@ -24,11 +24,13 @@ $sm-width: 90.4696133%; /* 655px / 724px */
 /* ----------------------- Scale and Responsive ----------------------- */
 
 body {
+  // padding-top to accomodate fixed header
+  padding-top: 50px;
   padding-bottom: 40px;
   font-size: 170%;
 }
 
-ul.nav-pills, #content, hr, .footer {
+#content, hr, .footer {
   margin-right: auto;
   margin-left: auto;
 }
@@ -37,8 +39,12 @@ ul.nav-pills, #content, hr, .footer {
 //
 //
 @media (min-width: 1200px) {
-  ul.nav-pills, .jumbotron .container, #content, hr, .footer {
+  .jumbotron>.container, #content, hr, .footer {
     width: $lg-width;
+  }
+  #navigation>.container {
+    width: $lg-width;
+    padding: 0;
   }
 }
 
@@ -49,8 +55,12 @@ ul.nav-pills, #content, hr, .footer {
   body {
     font-size: 160%;
   }
-  ul.nav-pills, .jumbotron .container, #content, hr, .footer {
+  .jumbotron>.container, #content, hr, .footer {
     width: $md-width;
+  }
+  #navigation>.container {
+    width: $md-width;
+    padding: 0;
   }
 }
 
@@ -61,20 +71,36 @@ ul.nav-pills, #content, hr, .footer {
   body {
     font-size: 150%;
   }
-  ul.nav-pills, .jumbotron .container, #content, hr, .footer {
+  .jumbotron>.container, #content, hr, .footer {
     width: $sm-width;
+  }
+  #navigation>.container {
+    width: $sm-width;
+    padding: 0;
   }
 }
 
 /* Landscape phone to portrait tablet */
 //
+// Subtract the content's width from the width
+// of the page to get the total margin as a percentage.
+// Divide by 4 to cut one side's margin in half.
 //
 @media (max-width: 767px) {
   body {
     font-size: 150%;
   }
-  ul.nav-pills, .jumbotron .container, #content, hr, .footer {
+  ul.nav > li {
+    float: left;
+  }
+  div#navbar {
+    margin: 0 (100% - $sm-width)/ 4;
+  }
+  .jumbotron>.container, #content, hr, .footer {
     width: $sm-width;
+  }
+  .jumbotron>.container {
+    margin: 0;
   }
 }
 
@@ -144,7 +170,26 @@ a {
 
 a:hover {
   color: $orange;
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: $orange;
+  border-bottom: 4px solid $mid-orange;
+  transition: all .20s ease-in-out;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: $orange;
+  border-bottom: 4px solid $orange;
+}
+
+#tail>a:hover {
+  border-bottom: 4px dashed $mid-orange;
+}
+
+.navbar-default .navbar-nav>li {
+  color: $mid-gray-color;
 }
 
 ::-moz-selection {
@@ -188,12 +233,22 @@ dd {
   background-color: $light-orange;
 }
 
+#tail > a {
+  padding-left: 0;
+}
+#tail > a > span {
+  padding-right: 10px;
+}
+
+// Seems hacky. Needed to vertically align
+// Pager links in header for works at
+// the beginning or end of the list.
+li.previous, li.next {
+  margin-top: 11px;
+}
+
 
 /* ----------------------- Jumbotron ----------------------- */
-
-.jumbotron .container {
-  padding: 0px;
-}
 
 .jumbotron {
   background-color: $light-orange;
