@@ -1,46 +1,19 @@
 ---
 layout: default
 ---
+
 <div class="jumbotron">
   <div class="container">
-    <h2>John Finley</h2>
-    <p>I'm an interaction designer living in Brooklyn, New York. I work at <a href="https://barbariangroup.com">The Barbarian Group</a>.</p>
+    <h1>John Finley</h1>
+    <p>Interaction Designer at The Barbarian Group.</p>
   </div>
 </div>
-<div id="content">
-  <div class="row">
-    <div id="experience" class="resume col-md-6">
-      <h4>Experience</h4>
-      <h5 class="job-title">Senior Interaction Designer, The Barbarian Group</h5>
-      <h6 class="job-date">August 2011 - Present</h6>
-      <p>I am responsible for the user experience of web, mobile, and installation projects for our clients.</p>
-      <h5 class="job-title">Interaction Designer, Centro</h5>
-      <h6 class="job-date">October 2008 - June 2011</h6>
-      <p>As an interaction design team of one, tight collaboration with developers made it possible for me to see my ideas take shape.</p>
-      <h5 class="job-title">Software Engineer, Centro</h5>
-      <h6 class="job-date">June 2007 - October 2008</h6>
-      <p>I developed a variety of web applications to manage the digital media buying process.</p>
-    </div><!-- experience -->
-
-    <div class="resume col-md-5 col-md-offset-1">
-      <h4>Education</h4>
-      <dl>
-        <dt>MFA Interaction Design</dt>
-        <dd>School of Visual Arts, 2011</dd>
-        <dt>B.S., Computer Information Systems</dt>
-        <dd>John Carroll University, 2007</dd>
-      </dl>
-
-      <h4>Contact</h4>
-      <ul>
-        <li><span id="obf"><script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:wcsvayrl@tznvypbz?fhowrpg=V fgbccrq ol lbhe jrofvgr\" gnetrg=\"_oynax\">wcsvayrl@tznvy.pbz</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});</script>
-        <noscript><span style="unicode-bidi:bidi-override;direction:rtl;">mocliamg@yelnifpj</span></noscript></span></li>
-        <li><a href="http://twitter.com/jpfinley" target="blank">@jpfinley</a></li>
-        <li><a href="https://github.com/jpfinley" target="blank">Github</a></li>
-        <li><a href="http://www.linkedin.com/in/jpfinley" target="blank">LinkedIn</a></li>
-        <li><a href="/Resume_John_Finley.pdf" target="blank">PDF resume</a></li>
-      </ul>
-    </div><!-- section -->
-
-  </div><!-- row -->
+<div class="container">
+  {% for post in site.posts %}
+    <div class="row">
+      <a href="{{ post.url }}"><img src="{{ post.thumbnail }}"></a>
+      <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+      <p>{{ post.slug }}</p>
+    </div>
+  {% endfor %}
 </div>
