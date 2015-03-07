@@ -1,0 +1,20 @@
+// Begin main.scss
+
+/* ----------------------- Variables ----------------------- */
+
+$body-font: "pt-sans-1","pt-sans-2";
+$header-font: "adelle-1","adelle-2";
+
+//$link-color: #CB4B16;
+$orange:       adjust-hue(#F4B400, -12deg);
+$mid-orange:   lighten($orange, 40%);
+$light-orange: lighten($orange, 51%);
+
+$white-color: #FFFFFF;
+$light-gray-color: #F5F5F5;
+$mid-gray-color: #999999;
+$dark-gray-color: #666666;
+
+$lg-width: 69.652174%; /* 700px / 1170px */
+$md-width: 77.652174%;
+$sm-width: 90.4696133%; /* 655px / 724px */
