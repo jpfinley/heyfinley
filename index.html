@@ -12,9 +12,9 @@ layout: default
 <div class="container">
   <div class="row">
     <hr>
-    <div class="col-md-6">
+    <div class="col-md-12">
       <ul class="list-inline">
-        <li><a href="/Resume_John_Finley.pdf" target="blank">PDF Resume</a></li>
+        <li><a href="/Resume_John_Finley.pdf" target="blank">Resume</a></li>
         <li><span id="obf"><a href="mailto:jpfinley@gmailcom?subject=I stopped by your website" target="_blank">Email</a>
         <noscript>&lt;span style="unicode-bidi:bidi-override;direction:rtl;"&gt;mocliamg@yelnifpj&lt;/span&gt;</noscript></span></li>
         <li><a href="http://twitter.com/jpfinley" target="blank">Twitter</a></li>
@@ -26,7 +26,7 @@ layout: default
   
   <div class="row">
     <hr>
-    <h3>Selected Work</h3>
+    <h1>Selected Work</h1>
     {% for post in site.posts %}
       <div class="col-md-6">
         <a href="{{ post.url }}"><img class="img-responsive" src="{{ post.thumbnail }}"></a>
