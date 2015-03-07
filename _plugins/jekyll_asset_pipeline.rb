@@ -9,13 +9,33 @@ module JAPR
     end
 
     def convert
-      begin
-        puts "Performing Sass Conversion."
-        engine = Sass::Engine.new(@content, :syntax => :scss, :load_paths => ["./css/"])
-        engine.render
-      rescue StandardError => e
-        puts "!!! SASS Error: " + e.message
-      end
+      return Sass::Engine.new(@content, syntax: :scss).render
+    end
+  end
+
+  class CssCompressor < JAPR::Compressor
+    require 'yui/compressor'
+
+    def self.filetype
+      '.css'
+    end
+
+    def compress
+      puts "Asset Pipeline: Compressing CSS"
+      return YUI::CssCompressor.new.compress(@content)
+    end
+  end
+  
+  class JavaScriptCompressor < JAPR::Compressor
+    require 'yui/compressor'
+
+    def self.filetype
+      '.js'
+    end
+
+    def compress
+      puts "Asset Pipeline: Compressing JS"
+      return YUI::JavaScriptCompressor.new(munge: true).compress(@content)
     end
   end
 end
