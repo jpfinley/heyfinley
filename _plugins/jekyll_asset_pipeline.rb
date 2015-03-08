@@ -26,16 +26,17 @@ module JAPR
     end
   end
   
-  class JavaScriptCompressor < JAPR::Compressor
-    require 'yui/compressor'
-
-    def self.filetype
-      '.js'
-    end
-
-    def compress
-      puts "Asset Pipeline: Compressing JS"
-      return YUI::JavaScriptCompressor.new(munge: true).compress(@content)
-    end
-  end
+  # TODO: fix infinite compression loop
+  # class JavaScriptCompressor < JAPR::Compressor
+  #   require 'yui/compressor'
+  #
+  #   def self.filetype
+  #     '.js'
+  #   end
+  #
+  #   def compress
+  #     puts "Asset Pipeline: Compressing JS"
+  #     return YUI::JavaScriptCompressor.new(munge: true).compress(@content)
+  #   end
+  # end
 end
