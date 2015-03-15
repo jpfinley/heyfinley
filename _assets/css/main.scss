@@ -6,7 +6,7 @@ $body-font: "pt-sans-1","pt-sans-2";
 $header-font: "adelle-1","adelle-2";
 
 //$link-color: #CB4B16;
-$orange:       adjust-hue(#F4B400, -12deg);
+$orange:       #F39C12;
 $mid-orange:   lighten($orange, 40%);
 $light-orange: lighten($orange, 51%);
 
@@ -15,13 +15,16 @@ $light-gray-color: #F5F5F5;
 $mid-gray-color: #999999;
 $dark-gray-color: #666666;
 
+// TODO remove these
 $lg-width: 69.652174%; /* 700px / 1170px */
 $md-width: 77.652174%;
 $sm-width: 90.4696133%; /* 655px / 724px */
 
+
+/* ----------------------- Home Page ----------------------- */
+
 .jumbotron {
   background-color: transparent;
-  border-bottom: 1px solid $orange;
 }
 
 canvas {
@@ -30,4 +33,27 @@ canvas {
   margin: 0;
   padding: 0;
   z-index: -10;
+}
+
+hr {
+  border-top: 3px solid $orange;
+}
+
+.row {
+//  border-top: 2px solid $orange;
+}
+
+.row h1 {
+  text-transform: uppercase;
+  font-size: 1.5em; /* rather arbitrary :( */
+  margin-bottom: 4.1237113%; /* 40 / 970 */
+}
+
+.work-grid {
+  padding-bottom: 3.0927835%; /* 30 / 970 */
+}
+
+.work-grid>div{
+  padding: 4.1237113%; /* 40 / 970 */
+  background-color: $light-gray-color;
 }

@@ -29,9 +29,9 @@ if (!window.requestAnimationFrame) {
 
 // end RequestAnimationFrame.js
 
-var BACK_COLOR = '#FFFFFF';
+var BACK_COLOR = '#f39c12';
 var MAX_PARTICLES = 500;
-var NOW_PARTICLES = 50;
+var NOW_PARTICLES = 100;
 var VELOCITY = 0.18;
 var MIN_SIZE = 3;
 var MAX_SIZE = 8;

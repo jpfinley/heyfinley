@@ -12,8 +12,9 @@ layout: default
 
 <div class="container">
   <div class="row">
-    <hr>
     <div class="col-md-12">
+      <hr />
+      <h1>Contact</h1>
       <ul class="list-inline">
         <li><a href="/Resume_John_Finley.pdf" target="blank">Resume</a></li>
         <li><span id="obf"><a href="mailto:jpfinley@gmailcom?subject=I stopped by your website" target="_blank">Email</a>
@@ -26,14 +27,18 @@ layout: default
   </div>
   
   <div class="row">
-    <hr>
-    <h1>Selected Work</h1>
-    {% for post in site.posts %}
-      <div class="col-md-6">
+    <div class="col-md-12">
+      <hr />
+      <h1>Selected Work</h1>
+    </div>
+  {% for post in site.posts %}
+    <div class="col-md-6 work-grid">
+      <div>
         <a href="{{ post.url }}"><img class="img-responsive" src="{{ post.thumbnail }}"></a>
         <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
         <p>{{ post.slug }}</p>
       </div>
-    {% endfor %}
+    </div>
+  {% endfor %}
   </div>
 </div>
