@@ -21,6 +21,49 @@ $md-width: 77.652174%;
 $sm-width: 90.4696133%; /* 655px / 724px */
 
 
+/* ----------------------- Styles ----------------------- */
+
+body {
+  font-family: "pt-sans-1", "pt-sans-2";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "adelle-1", "adelle-2";
+}
+
+a {
+  color: $orange;
+}
+
+a:hover {
+  color: $orange;
+}
+
+::-moz-selection {
+  background-color: $orange;
+  color: $white-color;
+}
+
+::selection {
+  background-color: $orange;
+  color: $white-color;
+}
+
+li, p {
+  font-size: 1.14285714285714em;
+  /* 16px / 14px */
+  line-height: 1.42857142857143em;
+  /* 20px / 14px */
+}
+
+ul, p {
+  margin-bottom: 1.875em;
+  /* 30px / 16px */
+}
+
+
+
+
 /* ----------------------- Home Page ----------------------- */
 
 .jumbotron {
@@ -39,10 +82,6 @@ hr {
   border-top: 3px solid $orange;
 }
 
-.row {
-//  border-top: 2px solid $orange;
-}
-
 .row h1 {
   text-transform: uppercase;
   font-size: 1.5em; /* rather arbitrary :( */
@@ -55,5 +94,43 @@ hr {
 
 .work-grid>div{
   padding: 4.1237113%; /* 40 / 970 */
+  background-color: $light-gray-color;
+}
+
+
+
+/* ----------------------- Work Page ----------------------- */
+
+  
+.post h1 {
+  font-size: 3.75em;
+  /* 60px / 16px */
+  line-height: 0.975609756em;
+  /* (82 / 40) * 2 */
+  margin-bottom: 3.1914894%;
+  /* 30 / 940 */
+}
+ 
+.post > p:first-of-type {
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-size: 1.3125em;
+  /* 21px / 16px */
+  line-height: 1.428571429em;
+  /* 30px / 21px */
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.pager li > a, .pager li > span {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.pager li > a:hover {
   background-color: $light-gray-color;
 }
