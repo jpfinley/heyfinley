@@ -18,3 +18,16 @@ $dark-gray-color: #666666;
 $lg-width: 69.652174%; /* 700px / 1170px */
 $md-width: 77.652174%;
 $sm-width: 90.4696133%; /* 655px / 724px */
+
+.jumbotron {
+  background-color: transparent;
+  border-bottom: 1px solid $orange;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: -10;
+}
