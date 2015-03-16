@@ -99,9 +99,47 @@ hr {
 
 
 
+/* ----------------------- Navbar ----------------------- */
+
+nav.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nav-pills > li > a {
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: $light-orange;
+}
+
+#tail > a {
+  padding-left: 0;
+}
+#tail > a > span {
+  padding-right: 10px;
+}
+
+// Seems hacky. Needed to vertically align
+// Pager links in header for works at
+// the beginning or end of the list.
+li.previous, li.next {
+  margin-top: 11px;
+}
+
+
+
 /* ----------------------- Work Page ----------------------- */
 
-  
+
+.post {
+  margin-top: 11.7021277%;
+  /* 110 / 940 */
+}
+
 .post h1 {
   font-size: 3.75em;
   /* 60px / 16px */
