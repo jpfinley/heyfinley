@@ -61,6 +61,47 @@ ul, p {
   /* 30px / 16px */
 }
 
+// These make the images responsive
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid $mid-gray-color;
+}
+
+
+
+/* ----------------------- Images and Video ----------------------- */
+
+// max-height to prevent tall
+// wireframes from being too giant
+.post img {
+  max-height: 140%;
+  margin: 10% auto;
+}
+
+// TODO Videos are too wide
+// Vimeo-specific
+.video-container {
+  position: relative;
+  margin-bottom: 1.875em;
+  /* 30px / 16px */
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+// Vimeo-specific
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 
 
@@ -120,6 +161,7 @@ nav.navbar-default {
 
 .navbar-brand img {
   width: 44px;
+  border: none;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -141,7 +183,8 @@ nav.navbar-default {
 // Pager links in header for works at
 // the beginning or end of the list.
 li.previous, li.next {
-  margin-top: 11px;
+  margin-top: 14px;
+  color: $light-gray-color;
 }
 
 
@@ -151,6 +194,8 @@ li.previous, li.next {
 
 .post {
   margin-top: 18.0851064%;
+  /* 170 / 940 */
+  margin-bottom: 8.5106383%;
   /* 170 / 940 */
 }
 
@@ -181,10 +226,15 @@ li.previous, li.next {
   /* 30px / 21px */
 }
 
-img {
-  display: block;
-  margin: 0 auto;
-}
+// centers content and reduces
+// line lengths on work pages
+// TODO user mediaqueries at bootstrap breakpoints
+// TODO apply this to work pages only
+//.container {
+//  max-width: $lg-width;
+//  margin-right: auto;
+//  margin-left:  auto;
+//}
 
 .pager li > a, .pager li > span {
   -webkit-border-radius: 0;
