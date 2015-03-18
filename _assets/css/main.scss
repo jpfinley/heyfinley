@@ -122,9 +122,12 @@ nav.navbar-default {
   width: 44px;
 }
 
-//TODO this is lint, yes?
-.nav>li>a:hover, .nav>li>a:focus {
-  background-color: $light-orange;
+.navbar-default .navbar-nav>li>a {
+  color: $mid-gray-color;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: $orange;
 }
 
 #tail > a {
