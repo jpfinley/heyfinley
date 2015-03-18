@@ -101,17 +101,28 @@ hr {
 
 /* ----------------------- Navbar ----------------------- */
 
+.navbar, .navbar > .container {
+  min-height: 80px;
+}
+
 nav.navbar-default {
   background-color: transparent;
   border-color: transparent;
 }
 
-.nav-pills > li > a {
-  -webkit-border-radius: 0;
-     -moz-border-radius: 0;
-          border-radius: 0;
+.nav {
+  margin-top: 14px;
 }
 
+.navbar-brand {
+  top: -10px;
+}
+
+.navbar-brand img {
+  width: 44px;
+}
+
+//TODO this is lint, yes?
 .nav>li>a:hover, .nav>li>a:focus {
   background-color: $light-orange;
 }
@@ -148,13 +159,19 @@ li.previous, li.next {
   margin-bottom: 3.1914894%;
   /* 30 / 940 */
 }
- 
+
+.post h5 {
+  font-family: "pt-sans-1", "pt-sans-2";
+  color: $mid-gray-color;
+}
+
 .post > p:first-of-type {
+  margin: 4.2553191em 0;
+  /* 40px / 940px */
   font-weight: normal;
-  margin-bottom: 20px;
-  font-size: 1.3125em;
-  /* 21px / 16px */
-  line-height: 1.428571429em;
+  font-size: 1.75em;
+  /* 28px / 16px */
+  line-height: 1.75em;
   /* 30px / 21px */
 }
 

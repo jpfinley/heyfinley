@@ -3,8 +3,8 @@ $('.hideable').hide(0);
 $(window).scroll(function() {
   if ($(this).scrollTop() > 110){
     $('nav.navbar-default').css({
-      "background-color": "#F39C12",
-      "border-color": "#F5F5F5"
+      "background-color": "#FFFFFF",
+      "border-color": "#F39C12"
     });
     $('.hideable').show();
   }

@@ -4,28 +4,26 @@ layout: default
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
-    <div id="navbar">
-      <ul class="nav navbar-nav">
-        <li><a class="navbar-brand" href="/">JF</a></li>
-        {% if page.title %}
-          <li id="tail" class="hideable hidden-xs"><a href="#"><span>&rsaquo;</span>{{ page.title }}</a></li>
+    <ul class="nav navbar-nav">
+      <li><a class="navbar-brand" href="/"><img src="../assets/img/jf-01.svg"></a></li>
+      {% if page.title %}
+        <li id="tail" class="hideable hidden-xs"><a href="#"><span>&rsaquo;</span>{{ page.title }}</a></li>
+      {% endif %}
+    </ul>
+    {% if page.title %}
+      <ul class="nav navbar-nav navbar-right hideable hidden-xs">
+        {% if page.previous %}
+          <li><a href="{{ page.previous.url }}">&larr;</a></li>
+        {% else %}
+          <li class="previous">&larr;</li>
+        {% endif %}
+        {% if page.next %}
+          <li><a href="{{ page.next.url }}">&rarr;</a></li>
+        {% else %}
+          <li class="next">&rarr;</li>
         {% endif %}
       </ul>
-      {% if page.title %}
-        <ul class="nav navbar-nav navbar-right hideable hidden-xs">
-          {% if page.previous %}
-            <li><a href="{{ page.previous.url }}">&larr;</a></li>
-          {% else %}
-            <li class="previous">&larr;</li>
-          {% endif %}
-          {% if page.next %}
-            <li><a href="{{ page.next.url }}">&rarr;</a></li>
-          {% else %}
-            <li class="next">&rarr;</li>
-          {% endif %}
-        </ul>
-      {% endif %}
-    </div>
+    {% endif %}
   </div>
 </nav>
     
