@@ -147,8 +147,8 @@ li.previous, li.next {
 
 
 .post {
-  margin-top: 11.7021277%;
-  /* 110 / 940 */
+  margin-top: 18.0851064%;
+  /* 170 / 940 */
 }
 
 .post h1 {
@@ -162,11 +162,14 @@ li.previous, li.next {
 
 .post h5 {
   font-family: "pt-sans-1", "pt-sans-2";
+  text-transform: uppercase;
   color: $mid-gray-color;
 }
 
 .post > p:first-of-type {
-  margin: 4.2553191em 0;
+  margin-top: 2.1276596em;
+  /* 20px / 940px */
+  margin-bottom: 4.2553191em;
   /* 40px / 940px */
   font-weight: normal;
   font-size: 1.75em;
