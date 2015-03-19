@@ -15,7 +15,6 @@ $light-gray-color: #F5F5F5;
 $mid-gray-color: #999999;
 $dark-gray-color: #666666;
 
-// TODO remove these
 $lg-width: 69.652174%; /* 700px / 1170px */
 $md-width: 77.652174%;
 $sm-width: 90.4696133%; /* 655px / 724px */
@@ -80,7 +79,6 @@ img {
   margin: 10% auto;
 }
 
-// TODO Videos are too wide
 // Vimeo-specific
 .video-container {
   position: relative;
@@ -192,14 +190,14 @@ li.previous, li.next {
 /* ----------------------- Work Page ----------------------- */
 
 
-.post {
+.post-content {
   margin-top: 18.0851064%;
   /* 170 / 940 */
   margin-bottom: 8.5106383%;
   /* 170 / 940 */
 }
 
-.post h1 {
+.post-content h1 {
   font-size: 3.75em;
   /* 60px / 16px */
   line-height: 0.975609756em;
@@ -208,13 +206,13 @@ li.previous, li.next {
   /* 30 / 940 */
 }
 
-.post h5 {
+.post-content h5 {
   font-family: "pt-sans-1", "pt-sans-2";
   text-transform: uppercase;
   color: $mid-gray-color;
 }
 
-.post > p:first-of-type {
+.post-content > p:first-of-type {
   margin-top: 2.1276596em;
   /* 20px / 940px */
   margin-bottom: 4.2553191em;
@@ -226,16 +224,6 @@ li.previous, li.next {
   /* 30px / 21px */
 }
 
-// centers content and reduces
-// line lengths on work pages
-// TODO user mediaqueries at bootstrap breakpoints
-// TODO apply this to work pages only
-//.container {
-//  max-width: $lg-width;
-//  margin-right: auto;
-//  margin-left:  auto;
-//}
-
 .pager li > a, .pager li > span {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -244,4 +232,41 @@ li.previous, li.next {
 
 .pager li > a:hover {
   background-color: $light-gray-color;
+}
+
+
+/* ----------------------- Scale and Responsive ----------------------- */
+
+body {
+  padding-bottom: 40px;
+  font-size: 170%;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  // centers content and reduces
+  // line lengths on work pages
+  .container.post {
+    max-width: $sm-width;
+    margin-right: auto;
+    margin-left:  auto;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container.post {
+    max-width: $md-width;
+    margin-right: auto;
+    margin-left:  auto;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container.post {
+    max-width: $lg-width;
+    margin-right: auto;
+    margin-left:  auto;
+  }
 }

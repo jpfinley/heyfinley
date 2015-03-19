@@ -3,7 +3,7 @@ layout: default
 ---
 
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
+  <div class="container post">
     <ul class="nav navbar-nav">
       <li><a class="navbar-brand" href="/"><img src="../assets/img/jf-01.svg"></a></li>
       {% if page.title %}
@@ -27,14 +27,14 @@ layout: default
   </div>
 </nav>
     
-<div class="container post">
+<div class="container post post-content">
   <h1>{{ page.title }}</h1>
   <h5>{{ page.date | date: "%B %Y" }}</h5>
 
   {{ content }}
 </div>
 
-<div class="container">
+<div class="container post">
   <ul class="pager">
     {% if page.previous %}
       <li class="previous">
