@@ -13,18 +13,18 @@ module JAPR
     end
   end
 
-  class CssCompressor < JAPR::Compressor
-    require 'yui/compressor'
-
-    def self.filetype
-      '.css'
-    end
-
-    def compress
-      puts "Asset Pipeline: Compressing CSS"
-      return YUI::CssCompressor.new.compress(@content)
-    end
-  end
+  # class CssCompressor < JAPR::Compressor
+  #   require 'yui/compressor'
+  #
+  #   def self.filetype
+  #     '.css'
+  #   end
+  #
+  #   def compress
+  #     puts "Asset Pipeline: Compressing CSS"
+  #     return YUI::CssCompressor.new.compress(@content)
+  #   end
+  # end
   
   # TODO: fix infinite compression loop
   # class JavaScriptCompressor < JAPR::Compressor
