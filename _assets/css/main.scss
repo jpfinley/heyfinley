@@ -163,7 +163,7 @@ nav.navbar-default {
 }
 
 .navbar-brand {
-  top: -10px;
+  top: -14px;
 }
 
 .navbar-brand img {
@@ -172,11 +172,11 @@ nav.navbar-default {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: $dark-gray-color;
+  color: $accent-color;
 }
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-  color: $dark-gray-color;
+.navbar-default .navbar-nav>li>a:hover {
+  color: $accent-color;
 }
 
 #tail > a {
@@ -184,14 +184,6 @@ nav.navbar-default {
 }
 #tail > a > span {
   padding-right: 10px;
-}
-
-// Seems hacky. Needed to vertically align
-// Pager links in header for works at
-// the beginning or end of the list.
-li.previous, li.next {
-  margin-top: 14px;
-  color: $light-gray-color;
 }
 
 

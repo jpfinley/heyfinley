@@ -10,20 +10,6 @@ layout: default
         <li id="tail" class="hideable hidden-xs"><a href="#"><span>&rsaquo;</span>{{ page.title }}</a></li>
       {% endif %}
     </ul>
-    {% if page.title %}
-      <ul class="nav navbar-nav navbar-right hideable hidden-xs">
-        {% if page.previous %}
-          <li><a href="{{ page.previous.url }}">&larr;</a></li>
-        {% else %}
-          <li class="previous">&larr;</li>
-        {% endif %}
-        {% if page.next %}
-          <li><a href="{{ page.next.url }}">&rarr;</a></li>
-        {% else %}
-          <li class="next">&rarr;</li>
-        {% endif %}
-      </ul>
-    {% endif %}
   </div>
 </nav>
     
