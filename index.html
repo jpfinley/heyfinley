@@ -38,6 +38,8 @@ layout: default
         <p>{{ post.slug }}</p>
       </div>
     </div>
+    <!-- wicked trick to clear variable height .work-grid divs in 2-column arrangements -->
+    {% cycle '', '<div class="clearfix visible-md-block visible-lg-block"></div>'%}
   {% endfor %}
   </div>
 </div>
