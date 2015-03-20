@@ -6,14 +6,13 @@ layout: default
   <canvas id="canvas"></canvas>
   <div class="container">
     <h1>John Finley</h1>
-    <p>Interaction Designer at The Barbarian Group.</p>
+    <p>User Experience Designer at The Barbarian Group.</p>
   </div>
 </div>
 
-<div class="container">
+<div class="container index">
   <div class="row">
     <div class="col-md-12">
-      <hr />
       <h1>Contact</h1>
       <ul class="list-inline">
         <li><a href="/Resume_John_Finley.pdf" target="blank">Resume</a></li>
@@ -23,19 +22,19 @@ layout: default
         <li><a href="https://github.com/jpfinley" target="blank">Github</a></li>
         <li><a href="http://www.linkedin.com/in/jpfinley" target="blank">LinkedIn</a></li>
       </ul>
+      <hr />
     </div>
   </div>
   
   <div class="row">
     <div class="col-md-12">
-      <hr />
       <h1>Selected Work</h1>
     </div>
   {% for post in site.posts %}
     <div class="col-md-6 work-grid">
       <div>
         <a href="{{ post.url }}"><img class="img-responsive" src="{{ post.thumbnail }}"></a>
-        <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+        <h4 class="work-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
         <p>{{ post.slug }}</p>
       </div>
     </div>

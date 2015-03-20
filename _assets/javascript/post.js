@@ -4,7 +4,7 @@ $(window).scroll(function() {
   if ($(this).scrollTop() > 110){
     $('nav.navbar-default').css({
       "background-color": "#FFFFFF",
-      "border-color": "#F39C12"
+      "border-color": "#BDC3C7"
     });
     $('.hideable').show();
   }

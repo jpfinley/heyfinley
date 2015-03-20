@@ -2,18 +2,17 @@
 
 /* ----------------------- Variables ----------------------- */
 
-$body-font: "pt-sans-1","pt-sans-2";
-$header-font: "adelle-1","adelle-2";
-
 //$link-color: #CB4B16;
 $orange:       #F39C12;
 $mid-orange:   lighten($orange, 40%);
 $light-orange: lighten($orange, 51%);
+$accent-color: #e67e22;
 
-$white-color: #FFFFFF;
-$light-gray-color: #F5F5F5;
-$mid-gray-color: #999999;
-$dark-gray-color: #666666;
+$white-color:      #FFFFFF;
+$black-color:      #4A4A4A;
+$light-gray-color: #ECF0F1;
+$mid-gray-color:   #BDC3C7;
+$dark-gray-color:  #7F8C8D;
 
 $lg-width: 69.652174%; /* 700px / 1170px */
 $md-width: 77.652174%;
@@ -23,28 +22,29 @@ $sm-width: 90.4696133%; /* 655px / 724px */
 /* ----------------------- Styles ----------------------- */
 
 body {
-  font-family: "pt-sans-1", "pt-sans-2";
+  font-family: "freight-sans-pro-1","freight-sans-pro-2",sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "adelle-1", "adelle-2";
+  font-weight: bold;
+  color: $black-color;
 }
 
 a {
-  color: $orange;
+  color: $accent-color;
 }
 
 a:hover {
-  color: $orange;
+  color: $accent-color;
 }
 
 ::-moz-selection {
-  background-color: $orange;
+  background-color: $accent-color;
   color: $white-color;
 }
 
 ::selection {
-  background-color: $orange;
+  background-color: $accent-color;
   color: $white-color;
 }
 
@@ -65,7 +65,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  border: 1px solid $mid-gray-color;
+  border: 1px solid $light-gray-color;
 }
 
 
@@ -107,6 +107,7 @@ img {
 
 .jumbotron {
   background-color: transparent;
+  border-bottom: 1px solid $mid-gray-color;
 }
 
 canvas {
@@ -118,12 +119,17 @@ canvas {
 }
 
 hr {
-  border-top: 3px solid $orange;
+  border-top: 1px solid $light-gray-color;
+  margin-top: 80px;
+}
+
+.row {
+  margin-bottom: 40px;
 }
 
 .row h1 {
   text-transform: uppercase;
-  font-size: 1.5em; /* rather arbitrary :( */
+  font-size: 1.2em; /* rather arbitrary :( just kinda feelin it :) */
   margin-bottom: 4.1237113%; /* 40 / 970 */
 }
 
@@ -136,6 +142,9 @@ hr {
   background-color: $light-gray-color;
 }
 
+.work-title {
+  font-size: 1.473684211em;
+}
 
 
 /* ----------------------- Navbar ----------------------- */
@@ -163,11 +172,11 @@ nav.navbar-default {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: $mid-gray-color;
+  color: $dark-gray-color;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-  color: $orange;
+  color: $dark-gray-color;
 }
 
 #tail > a {
@@ -207,7 +216,6 @@ li.previous, li.next {
 }
 
 .post-content h5 {
-  font-family: "pt-sans-1", "pt-sans-2";
   text-transform: uppercase;
   color: $mid-gray-color;
 }
@@ -235,11 +243,17 @@ li.previous, li.next {
 }
 
 
+/* ----------------------- Footer ----------------------- */
+
+.footer {
+  font-size: 85%;
+}
+
 /* ----------------------- Scale and Responsive ----------------------- */
 
 body {
   padding-bottom: 40px;
-  font-size: 170%;
+  font-size: 150%;
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -255,6 +269,9 @@ body {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  body {
+    font-size: 160%;
+  }
   .container.post {
     max-width: $md-width;
     margin-right: auto;
@@ -264,6 +281,9 @@ body {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  body {
+    font-size: 200%;
+  }
   .container.post {
     max-width: $lg-width;
     margin-right: auto;
