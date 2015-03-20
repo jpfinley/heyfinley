@@ -9,7 +9,7 @@ slug: "Creating a shared experience for visitors of the High Line."
 
 As a final assignment for [Jill Nussbaum][23]'s [Design for Public Spaces][24]
 course, we conceived of the Bright Points Project as a way for New Yorkers to
-experience something they don't see too often--the sunset. I designed and
+experience something they don't see too often&mdash;the sunset. I designed and
 presented the Bright Points Project along with Angela Huang, [Chia-wei
 Liu][25], and [Gene Lu][26].
 
