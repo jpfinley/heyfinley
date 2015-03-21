@@ -11,7 +11,7 @@ Floppy Stereo was an attempt to create a personal music jukebox. It is
 constructed out of a salvaged computer, LCD display, USB number pad, and
 multiple floppy diskettes.
 
-<iframe src="http://player.vimeo.com/video/3328424?portrait=0" width="620" height="349" frameborder="0">hi</iframe>
+{% vimeo 3328424 %}
 
 Many years ago I began to convert my music collection from compact disk to
 compressed audio files. This afforded me the portability and convenience that

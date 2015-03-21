@@ -40,3 +40,5 @@ dist
 _site
 
 Resume_John_Finley.pdf
+
+Gemfile.lock

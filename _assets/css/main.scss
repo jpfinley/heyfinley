@@ -1,0 +1,282 @@
+// Begin main.scss
+
+/* ----------------------- Variables ----------------------- */
+
+$carrot:       #E67E22;
+$accent-color: $carrot;
+
+$white-color:      #FFFFFF;
+$black-color:      #4A4A4A;
+$light-gray-color: #ECF0F1; /* clouds */
+$mid-gray-color:   #BDC3C7; /* silver */
+$dark-gray-color:  #7F8C8D; /* asbestos */
+
+$lg-width: 69.652174%; /* 700px / 1170px */
+$md-width: 77.652174%;
+$sm-width: 90.4696133%; /* 655px / 724px */
+
+
+/* ----------------------- Styles ----------------------- */
+
+body {
+  font-family: "freight-sans-pro-1","freight-sans-pro-2",sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: $black-color;
+}
+
+a {
+  color: $accent-color;
+}
+
+a:hover {
+  color: $accent-color;
+}
+
+::-moz-selection {
+  background-color: $accent-color;
+  color: $white-color;
+}
+
+::selection {
+  background-color: $accent-color;
+  color: $white-color;
+}
+
+li, p {
+  font-size: 1.14285714285714em;
+  /* 16px / 14px */
+  line-height: 1.42857142857143em;
+  /* 20px / 14px */
+}
+
+ul, p {
+  margin-bottom: 1.875em;
+  /* 30px / 16px */
+}
+
+// These make the images responsive
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid $light-gray-color;
+}
+
+
+
+/* ----------------------- Images and Video ----------------------- */
+
+// max-height to prevent tall
+// wireframes from being too giant
+.post img {
+  max-height: 140%;
+  margin: 10% auto;
+}
+
+// Vimeo-specific
+.video-container {
+  position: relative;
+  margin-bottom: 1.875em;
+  /* 30px / 16px */
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+// Vimeo-specific
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* ----------------------- Home Page ----------------------- */
+
+.jumbotron {
+  background-color: transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9) 96%);
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: -10;
+}
+
+hr {
+  border-top: 1px solid $light-gray-color;
+  margin-top: 80px;
+}
+
+.row {
+  margin-bottom: 40px;
+}
+
+.row h1 {
+  text-transform: uppercase;
+  font-size: 1.2em; /* rather arbitrary :( just kinda feelin it :) */
+  margin-bottom: 4.1237113%; /* 40 / 970 */
+}
+
+.work-grid {
+  padding-bottom: 3.0927835%; /* 30 / 970 */
+}
+
+.work-grid>div{
+  padding: 4.1237113%; /* 40 / 970 */
+  background-color: $light-gray-color;
+}
+
+.work-title {
+  margin-top: 4%;
+  font-size: 1.473684211em;
+}
+
+
+/* ----------------------- Navbar ----------------------- */
+
+.navbar, .navbar > .container {
+  min-height: 80px;
+}
+
+nav.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nav {
+  margin-top: 14px;
+}
+
+.navbar-brand {
+  top: -10px;
+}
+
+.navbar-brand svg {
+  width: 44px;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: $accent-color;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: $accent-color;
+}
+
+#tail > a {
+  padding-left: 0;
+}
+#tail > a > span {
+  padding-right: 10px;
+}
+
+
+
+/* ----------------------- Work Page ----------------------- */
+
+
+.post-content {
+  margin-top: 18.0851064%;
+  /* 170 / 940 */
+  margin-bottom: 8.5106383%;
+  /* 170 / 940 */
+}
+
+.post-content h1 {
+  font-size: 3.75em;
+  /* 60px / 16px */
+  line-height: 0.975609756em;
+  /* (82 / 40) * 2 */
+  margin-bottom: 3.1914894%;
+  /* 30 / 940 */
+}
+
+.post-content h5 {
+  text-transform: uppercase;
+  color: $dark-gray-color;
+}
+
+.post-content > p:first-of-type {
+  margin-top: 2.1276596em;
+  /* 20px / 940px */
+  margin-bottom: 4.2553191em;
+  /* 40px / 940px */
+  font-weight: normal;
+  font-size: 1.75em;
+  /* 28px / 16px */
+  line-height: 1.75em;
+  /* 30px / 21px */
+}
+
+.pager li > a, .pager li > span {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.pager li > a:hover {
+  background-color: $light-gray-color;
+}
+
+
+/* ----------------------- Footer ----------------------- */
+
+.footer {
+  font-size: 85%;
+}
+
+/* ----------------------- Scale and Responsive ----------------------- */
+
+body {
+  padding-bottom: 40px;
+  font-size: 150%;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  // centers content and reduces
+  // line lengths on work pages
+  .container.post {
+    max-width: $sm-width;
+    margin-right: auto;
+    margin-left:  auto;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    font-size: 160%;
+  }
+  .container.post {
+    max-width: $md-width;
+    margin-right: auto;
+    margin-left:  auto;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    font-size: 200%;
+  }
+  .container.post {
+    max-width: $lg-width;
+    margin-right: auto;
+    margin-left:  auto;
+  }
+}

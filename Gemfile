@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'jekyll'
+gem 'japr'
+gem 'sass'
+gem 'yui-compressor'
