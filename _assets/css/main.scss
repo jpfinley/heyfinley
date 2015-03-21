@@ -2,17 +2,14 @@
 
 /* ----------------------- Variables ----------------------- */
 
-//$link-color: #CB4B16;
-$orange:       #F39C12;
-$mid-orange:   lighten($orange, 40%);
-$light-orange: lighten($orange, 51%);
-$accent-color: #e67e22;
+$carrot:       #E67E22;
+$accent-color: $carrot;
 
 $white-color:      #FFFFFF;
 $black-color:      #4A4A4A;
-$light-gray-color: #ECF0F1;
-$mid-gray-color:   #BDC3C7;
-$dark-gray-color:  #7F8C8D;
+$light-gray-color: #ECF0F1; /* clouds */
+$mid-gray-color:   #BDC3C7; /* silver */
+$dark-gray-color:  #7F8C8D; /* asbestos */
 
 $lg-width: 69.652174%; /* 700px / 1170px */
 $md-width: 77.652174%;
@@ -107,7 +104,7 @@ img {
 
 .jumbotron {
   background-color: transparent;
-  border-bottom: 1px solid $mid-gray-color;
+  border-bottom: 1px solid $dark-gray-color;
 }
 
 canvas {
@@ -164,10 +161,10 @@ nav.navbar-default {
 }
 
 .navbar-brand {
-  top: -14px;
+  top: -10px;
 }
 
-.navbar-brand img {
+.navbar-brand svg {
   width: 44px;
   border: none;
 }
@@ -210,7 +207,7 @@ nav.navbar-default {
 
 .post-content h5 {
   text-transform: uppercase;
-  color: $mid-gray-color;
+  color: $dark-gray-color;
 }
 
 .post-content > p:first-of-type {
