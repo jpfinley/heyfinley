@@ -3,4 +3,14 @@ permalink: none
 markdown: redcarpet
 highlighter: pygments
 include: ['.htaccess']
-exclude: ['node_modules', 'Gruntfile.js', 'package.json', 'Gem*']
+exclude: [
+  'assets/css/src',
+  'assets/css/build',
+  'assets/img/source',
+  'assets/javascript/src',
+  'assets/javascript/build',
+  'node_modules',
+  'Gruntfile.js',
+  'package.json',
+  'Gem*'
+]
