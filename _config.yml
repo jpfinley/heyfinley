@@ -2,3 +2,5 @@ name: John Finley's Online Portfolio
 permalink: none
 markdown: redcarpet
 highlighter: pygments
+include: ['.htaccess']
+exclude: ['node_modules', 'Gruntfile.js', 'package.json', 'Gem*']
