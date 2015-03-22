@@ -236,6 +236,7 @@ nav.navbar-default.scrolled {
 }
 
 .pager li > a, .pager li > span {
+  margin: 3.125% 0; /* 10 / 320 */
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
