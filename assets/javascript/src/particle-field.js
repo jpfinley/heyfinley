@@ -118,17 +118,23 @@ function animate() {
 }
 
 $(window).resize(function () {
-  var canvas = document.getElementById('canvas');
-  c.canvas.width  = $('.jumbotron').width();
-  c.canvas.height = $('.jumbotron').outerHeight();
+  // if statement here ensures canvas statements executed
+  // only on pages that contain <canvas>s. Kinda smelly.
+  if ($('#canvas').length) {
+    var canvas = document.getElementById('canvas');
+    c.canvas.width  = $('.jumbotron').width();
+    c.canvas.height = $('.jumbotron').outerHeight();
+  }
 });
 
 window.onload = function () {
-  canvas = document.getElementById("canvas");
-  c = canvas.getContext("2d");
-  c.canvas.width  = $('.jumbotron').width();
-  c.canvas.height = $('.jumbotron').outerHeight();
+  if ($('#canvas').length) {
+    canvas = document.getElementById("canvas");
+    c = canvas.getContext("2d");
+    c.canvas.width  = $('.jumbotron').width();
+    c.canvas.height = $('.jumbotron').outerHeight();
 
-  generateParticles();
-  animate();
+    generateParticles();
+    animate();
+  }
 }
