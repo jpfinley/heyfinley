@@ -45,3 +45,5 @@ Gemfile.lock
 
 assets/javascript/site.js
 assets/javascript/site.min.js
+
+assets/img/portfolio/

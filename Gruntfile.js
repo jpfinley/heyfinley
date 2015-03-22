@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
 
-    // 1. All configuration goes here 
+    // All configuration goes here 
     grunt.initConfig({
       pkg: grunt.file.readJSON('package.json'),
       concat: {
@@ -18,13 +18,24 @@ module.exports = function(grunt) {
               src:  'assets/javascript/site.js',
               dest: 'assets/javascript/site.min.js'
           }
+      },
+      imagemin: {
+        dynamic: {
+          files: [{
+            expand: true,
+            cwd: 'assets/img/source/',
+            src: ['**/*.{png,jpg,gif}'],
+            dest: 'assets/img/portfolio/'
+          }]
+        }
       }
     });
 
     // Load Grunt plug-ins
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-imagemin');
     
-    // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['concat', 'uglify']);
+    // Where we tell Grunt what to do when we type "grunt" into the terminal.
+    grunt.registerTask('default', ['concat', 'uglify', 'imagemin']);
 };
