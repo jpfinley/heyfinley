@@ -3,22 +3,32 @@ module.exports = function(grunt) {
     // All configuration goes here 
     grunt.initConfig({
       pkg: grunt.file.readJSON('package.json'),
+      // ---- JS Concatenation
       concat: {
-        dist: {
+        js: {
           src: [
             '_assets/javascript/jquery.min.js',
             '_assets/javascript/post.js',
             '_assets/javascript/particle-field.js'
           ],
           dest: 'assets/javascript/site.js'
+        },
+        css: {
+          src: [
+            'assets/css/bootstrap.min.css',
+            'assets/css/main.css'
+          ],
+          dest: 'assets/css/site.css'
         }
       },
+      // ---- JS Compression
       uglify: {
           build: {
               src:  'assets/javascript/site.js',
               dest: 'assets/javascript/site.min.js'
           }
       },
+      // ---- Image Compression
       imagemin: {
         dynamic: {
           files: [{
@@ -29,6 +39,18 @@ module.exports = function(grunt) {
           }]
         }
       },
+      // ---- SASS
+      sass: {
+        dist: {
+          options: {
+            style: 'compressed'
+          },
+          files: {
+            'assets/css/main.css': 'assets/css/src/main.scss'
+          }
+        } 
+      },
+      // ---- Watch
       watch: {
         scripts: {
           files: ['_assets/javascript/*.js'],
@@ -43,6 +65,13 @@ module.exports = function(grunt) {
           options: {
             spawn: false,
           },
+        },
+        css: {
+          files: ['assets/css/src/*.scss'],
+          tasks: ['sass'],
+          options: {
+            spawn: false,
+          }
         }
       }
     });
@@ -52,6 +81,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-sass');
     
     // Where we tell Grunt what to do when we type "grunt" into the terminal.
     grunt.registerTask('default', ['concat', 'uglify', 'imagemin']);
