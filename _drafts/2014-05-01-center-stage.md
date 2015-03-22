@@ -35,17 +35,25 @@ The experience starts before the shopper arrives with a full-screen video, what 
 
 {% video ../assets/video/center-stage-attract.mp4 ../assets/img/portfolio/center-stage-attract-poster.png loop %}
 
-This video would display across all screens on the set up and are punctuated with a giant call to action for people to get started. Our research found some people would be intimidated by the sheer scale of Center Stage and our messaging was designed to make it clear that this was in fact something you could come up and use.
+This video displays across all screens and is punctuated with a giant call to action for people to get started. Our research found some people would be intimidated by the sheer scale of Center Stage and our messaging was designed to make it clear that this was in fact something you could come up and use.
 
 When the user taps on the call to action, they are presented with a welcome screen that explains the basics of navigation within this unusual experience. After that they are free to explore and interact at their own pace.
+
+![Center Stage Category](../assets/img/portfolio/center-stage-category.jpg)
 
 ## Navigation and Information display
 
 Determining where to place interface controls was easily the biggest single design problem I encountered on Center Stage. We had more pixels to work with than any other project I’ve ever encountered, but we were still constrained by the fact that only the single large screen is touch-enabled. In addition, the client specified that all products must be rendered at life-size, leaving virtually no room for anything else when you display a refrigerator or other large appliance. 
 
+![Center Stage Wireframes](../assets/img/portfolio/center-stage-wireframes.gif)
+
 We experimented early on with massive pull-down sheets, zooming interfaces, and something that could be described as a “two-dimensional carousel.” We settled on a navigation module whose content was contextual and could be minimized when not in use.
 
 {% video ../assets/video/center-stage-beta-menu.mov ../assets/img/portfolio/center-stage-beta-menu-poster.png %}
+
+![Center Stage Menu 1](../assets/img/portfolio/center-stage-menu-1.png)
+
+![Center Stage Menu 2](../assets/img/portfolio/center-stage-menu-2.png)
 
 In addition to category and product navigation, we also designed a filtering mechanism and a set of product tools for alternate viewing angles, zooming, and placing the product in the context of a home.
 
