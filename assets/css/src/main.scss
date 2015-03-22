@@ -259,6 +259,17 @@ body {
   font-size: 150%;
 }
 
+// Un-sticky nav on mobile
+@media (max-width: 767px) {
+  .navbar-fixed-top {
+    position: relative;
+  }
+  nav.navbar-default.scrolled {
+    background-color: transparent;
+    border-color: transparent;
+  }
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   // centers content and reduces
