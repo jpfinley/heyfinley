@@ -22,10 +22,15 @@ module Jekyll
       params = path.split
       @path = params[0]
       @poster = params[1] || ''
+      if params[2] == 'loop'
+        @loop = 'loop'
+      else
+        @loop = ''
+      end
     end
 
     def render(context)
-      source = "<p><video width='100%' preload='none' controls='controls' poster='#{@poster}'>"
+      source = "<p><video width='100%' preload='none' #{@loop} controls='controls' poster='#{@poster}'>"
       source +="<source src='#{@path}'/>"
       source += "</video></p>"
     end
