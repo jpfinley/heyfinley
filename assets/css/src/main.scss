@@ -156,6 +156,11 @@ nav.navbar-default {
   border-color: transparent;
 }
 
+nav.navbar-default.scrolled {
+  background-color: $white-color;
+  border-color: $mid-gray-color;
+}
+
 .nav {
   margin-top: 14px;
 }
@@ -167,6 +172,14 @@ nav.navbar-default {
 .navbar-brand svg {
   width: 44px;
   border: none;
+}
+
+.logo-field.hover {
+  fill: $dark-gray-color;
+}
+
+.logo-initial.hover {
+  fill: $white-color;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -223,6 +236,7 @@ nav.navbar-default {
 }
 
 .pager li > a, .pager li > span {
+  margin: 3.125% 0; /* 10 / 320 */
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -244,6 +258,17 @@ nav.navbar-default {
 body {
   padding-bottom: 40px;
   font-size: 150%;
+}
+
+// Un-sticky nav on mobile
+@media (max-width: 767px) {
+  .navbar-fixed-top {
+    position: relative;
+  }
+  nav.navbar-default.scrolled {
+    background-color: transparent;
+    border-color: transparent;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */

@@ -7,30 +7,24 @@ $('.hideable').hide(0);
 // hide the nav and its elements
 $(window).scroll(function() {
   if ($(this).scrollTop() > 110){
-    $('nav.navbar-default').css({
-      "background-color": "#FFFFFF",
-      "border-color": "#BDC3C7"
-    });
+    $('nav.navbar-default').addClass('scrolled');
     $('.hideable').show();
   }
   else{
-    $('nav.navbar-default').css({
-      "background-color": "transparent",
-      "border-color": "transparent"
-    });
+    $('nav.navbar-default').removeClass('scrolled');
     $('.hideable').hide();
   }
 });
 
-// SVG rollover effect. Nasty. Can't figure out
-// how else to change two fills with a single :hover
+// SVG rollover effect. A bit nasty
+// since SVG won't respond to addClass()
 $('.logo').hover(
   function() {
-    $( '.logo-field'   ).css({ "fill": "#7F8C8D" }); // asbestos
-    $( '.logo-initial' ).css({ "fill": "#FFFFFF" });
-  }, function() {
-    $( '.logo-field'   ).css({ "fill": "#ECF0F1" }); // clouds
-    $( '.logo-initial' ).css({ "fill": "#E67E22" }); // carrot
+    $( '.logo-field'   ).attr('class', 'logo-field hover');
+    $( '.logo-initial' ).attr('class', 'logo-initial hover');
+  }, function() {                             
+    $( '.logo-field'   ).attr('class', 'logo-field');
+    $( '.logo-initial' ).attr('class', 'logo-initial');
   }
 );
 
