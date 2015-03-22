@@ -7,13 +7,15 @@ thumbnail: "../assets/img/portfolio/mobile-navigation-study-thumbnail.png"
 slug: "Evolving a design for clarity and ease of use."
 ---
 
-Just a quick post to show how some small changes to a navigation structure can make big changes for the user—especially for mobile apps.
+A concept evaluation to show how some small changes to a navigation structure can make big changes for the user—especially for mobile apps.
 
-As were creating a RSS-like news reader for a large consumer package goods company with numerous product lines and employees across the world. The company needed to make sure their employees were up-to-date on things happening not only within their respective teams, but within others. The app would exist on the web and as a native app for tablet and mobile. Other configurations are to be build for non-interactive, digital signage.
+We were creating a RSS-like news reader for a large consumer package goods company with numerous product lines and employees across the world. The company needed to make sure their employees were up-to-date on things happening company-wide, not just within their teams. The app would exist on the web and as a native app for tablet and mobile. Other configurations are to come for non-interactive digital signage.
 
-The content is categorized into channels that would eventually come from the content strategist. Since commenting was in scope, we were also planning on including a user profile. Other tools like favoriting stories, search, and app settings were also in the mix.
+The content is categorized into channels, like "Customer Service," "Finance," and "Logistics." Users can pick a channel to see stories and then pick a story to read. When the user reaches the end of the story, they can easily move on to the next.
 
-We began designing before scope was fully codified, and out first revision reflected this. The app’s structure was bare-bones: it started with a view of all channels and drilled down into an individual channel and then finally into a story.
+Since commenting was in scope, we were also planning on including a user profile. Other tools like favoriting stories, search, and app settings were also in the mix.
+
+We began designing before scope was fully signed-off, and out first revision reflected this. The app’s structure was bare-bones: it started with a view of all channels and drilled down into an individual channel and then finally into a story.
 
 ![Navigation Ribbon 2](../assets/img/portfolio/navigation-ribbon-2.png)
 

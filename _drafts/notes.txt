@@ -1,0 +1,43 @@
+## Mobile Navigation Study
+
+- “Just a quick post to show how some small changes to a navigation structure can make big changes for the user—especially for mobile apps.” … 
+- - don’t undervalue your work by saying it’s a “quick post”. 
+- - maybe refer to it as a “concept exploration to understand how small changes in a navigation structure can make big changes for the user—especially for mobile apps.”
+- “As were creating a RSS-like news” … 
+- - grammatical error
+- “The company needed”… 
+- - is this TBG or a client? 
+- “The content is categorized into channels that would eventually come from the content strategist.”…
+- - I found this guy a bit confusing. Maybe try adding buckets next to channels or refer to it as a “contextual navigation similar to media aggregates, such as Flipboard”. Maybe a four block diagram or icon would help. 
+- “We began designing before scope was fully codified” 
+- - I know codified is “arranged according to plan” but I read it as “code-ified” as in a development effort.
+- “individual channel”
+- - maybe it’s worth defining channel in this context
+
+## Center Stage
+
+- “Placing interactive digital displays at retail may sound like a marketing move, and that is partially true. But it also addresses a very real constraint in retail: floor space.”
+- - dude this is a fucking cool project. don’t diminish it!
+- - try “a fully interactive physical computing installation has never been done before in a commercial retailer space, Best Buy… …The objective was to compare 4k displays to HD.”
+- human factors, field of view, two audiences. foam board mocks..
+- - I’m sold. tell me about everything in the first 3 and how you used foam core boards as a tool to prototype  
+- “12” wide” is actually 12 inches wide. ‘ is feet
+- Attract loop & start screen
+- - maybe a flow diagram would be helpful here… 
+- Navigation is a radial model
+- - not sure if you want to talk about the ergonomics of these navigation models, specifically to Fitt’s Law, where each new item that opens up is an equal distance from where you open it.
+- I want to kiss you for this spreadsheet with the menu organization! YES! YES!
+
+## Hornitos
+
+- Part of that meant tossing aside their current web site and bringing in something modern, responsive, and completely unexpected.
+- - part of the project scope meant… 
+- Where are the sketches?
+- What other GIFs were considered?
+- Wireframes
+
+## Interactive with Sound
+
+- Can you draw a connection from this talk to Center Stage? 
+- Specifically, “There are many opportunities to use sound as a mechanism for user feedback – opportunities we often taken for granted when designing for primarily visual mediums.”
+- Maybe outline your talk here? Upload the deck to Slideshare and embed it here too
