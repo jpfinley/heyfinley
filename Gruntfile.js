@@ -7,11 +7,11 @@ module.exports = function(grunt) {
       concat: {
         js: {
           src: [
-            '_assets/javascript/jquery.min.js',
-            '_assets/javascript/post.js',
-            '_assets/javascript/particle-field.js'
+            'assets/javascript/src/jquery.min.js',
+            'assets/javascript/src/post.js',
+            'assets/javascript/src/particle-field.js'
           ],
-          dest: 'assets/javascript/site.js'
+          dest: 'assets/javascript/build/site.js'
         },
         css: {
           src: [
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
       // ---- JS Compression
       uglify: {
           build: {
-              src:  'assets/javascript/site.js',
+              src:  'assets/javascript/build/site.js',
               dest: 'assets/javascript/site.min.js'
           }
       },
