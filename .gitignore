@@ -43,6 +43,8 @@ Resume_John_Finley.pdf
 
 Gemfile.lock
 
+assets/css/build/*
+
 assets/javascript/site.js
 assets/javascript/site.min.js
 

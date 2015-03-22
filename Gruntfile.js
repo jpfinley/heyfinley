@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     // All configuration goes here 
     grunt.initConfig({
       pkg: grunt.file.readJSON('package.json'),
-      // ---- JS Concatenation
+      // ---- Concatenation
       concat: {
         js: {
           src: [
@@ -15,8 +15,8 @@ module.exports = function(grunt) {
         },
         css: {
           src: [
-            'assets/css/bootstrap.min.css',
-            'assets/css/main.css'
+            'assets/css/src/bootstrap.min.css',
+            'assets/css/build/main.css'
           ],
           dest: 'assets/css/site.css'
         }
@@ -46,7 +46,7 @@ module.exports = function(grunt) {
             style: 'compressed'
           },
           files: {
-            'assets/css/main.css': 'assets/css/src/main.scss'
+            'assets/css/build/main.css': 'assets/css/src/main.scss'
           }
         } 
       },
@@ -84,5 +84,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-sass');
     
     // Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['concat', 'uglify', 'imagemin']);
+    grunt.registerTask('default', ['sass', 'concat', 'uglify']);
 };
