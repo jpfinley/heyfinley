@@ -20,7 +20,7 @@ I’m often asked what things a person should be reading if they are just starti
 
 - *[Designing for Interaction](http://amzn.com/0321643399)*, Dan Saffer. A great survey of principled interactions for a variety of inerfaces and context. Maybe start here.
 - *[About Face](http://amzn.com/1118766571)*, Alan Cooper. When you're done with Saffer, dive into this.
-- *[Designing interfaces](http://amzn.com/0596008031)*, Jenifer Tidwell. The edition I have is full of interfaces whose visual design is now outdated, but whose principles remain relevant.
+- *[Designing Interfaces](http://amzn.com/0596008031)*, Jenifer Tidwell. The edition I have is full of interfaces whose visual design is now outdated, but whose principles remain relevant.
 - *[Designing Interactions](http://amzn.com/0262134748)*, Bill Moggridge. Really interesting oral histories from pioneers from many industries.
 - *[The Design of Everyday Things]()*, Donald Norman. Posted here for fear of losing all professional credibility.
 - *[Infinite Jest](http://33.media.tumblr.com/tumblr_loeqm22IxF1qmlqceo1_250.gif)*, David Foster Wallace. I mean, have you read it?
