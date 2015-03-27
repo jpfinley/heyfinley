@@ -1,1 +1,2 @@
 ErrorDocument 404 /err404.html
+Redirect /work/index.html http://heyfinley.com/
