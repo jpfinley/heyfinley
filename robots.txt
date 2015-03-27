@@ -4,4 +4,8 @@ Disallow:
 Disallow: /commentator/
 Disallow: /eileen/
 Disallow: /sva/
+Disallow: /v1/
+Disallow: /v2/
+Disallow: /v3/
+Disallow: /v4/
 Sitemap: http://heyfinley.com/sitemap.xml
