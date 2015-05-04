@@ -22,7 +22,12 @@ body {
   font-family: "freight-sans-pro-1","freight-sans-pro-2",sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
   color: $black-color;
 }
@@ -45,14 +50,16 @@ a:hover {
   color: $white-color;
 }
 
-li, p {
+li,
+p {
   font-size: 1.14285714285714em;
   /* 16px / 14px */
   line-height: 1.42857142857143em;
   /* 20px / 14px */
 }
 
-ul, p {
+ul,
+p {
   margin-bottom: 1.875em;
   /* 30px / 16px */
 }
@@ -104,7 +111,7 @@ img {
 
 .jumbotron {
   background-color: transparent;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9) 96%);
+  background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.9) 96%);
 }
 
 canvas {
@@ -147,7 +154,8 @@ hr {
 
 /* ----------------------- Navbar ----------------------- */
 
-.navbar, .navbar > .container {
+.navbar,
+.navbar > .container {
   min-height: 80px;
 }
 
@@ -235,7 +243,8 @@ nav.navbar-default.scrolled {
   /* 30px / 21px */
 }
 
-.pager li > a, .pager li > span {
+.pager li > a,
+.pager li > span {
   margin: 3.125% 0; /* 10 / 320 */
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
