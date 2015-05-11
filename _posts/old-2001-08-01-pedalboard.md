@@ -2,6 +2,7 @@
 layout: post
 title: "Pedalboard"
 categories: work
+featured: false
 ---
 
 <div id="description">

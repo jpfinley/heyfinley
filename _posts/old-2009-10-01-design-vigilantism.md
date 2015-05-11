@@ -3,6 +3,7 @@ layout: post
 title: "Design Vigilantism"
 date: "October 2009"
 categories: work
+featured: false
 thumbnail: "../assets/img/portfolio/design-vigilantsim-thumbnail.png"
 slug: "A makeover for an unlikely client: my own apartment building."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Interacting with Sound"
 date: "January 2012"
 categories: work
+featured: true
 thumbnail: "../assets/img/portfolio/interacting-with-sound-thumbnail.gif"
 slug: "It's not all pixels."
 ---

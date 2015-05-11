@@ -3,6 +3,7 @@ layout: post
 title: "Floppy Stereo"
 date: "June 2004"
 categories: work
+featured: false
 thumbnail: "../assets/img/portfolio/floppy-stereo-thumbnail.png"
 slug: "Repurposing old technology for musical ceremony."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Pizza Vinoteca"
 date: "April 2013"
 categories: work
+featured: true
 thumbnail: "../assets/img/portfolio/pizzavinoteca-thumbnail.png"
 slug: "Creating the digital restaurant experience."
 ---

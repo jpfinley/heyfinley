@@ -2,6 +2,7 @@
 layout: post
 title: "City Karma"
 categories: work
+featured: false
 date: "December 2010"
 thumbnail: "../assets/img/portfolio/city-karma-thumbnail.png"
 slug: "Designing a service for New York City residents to share good news."
