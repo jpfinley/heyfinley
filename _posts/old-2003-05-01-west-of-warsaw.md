@@ -2,6 +2,7 @@
 layout: post
 title: "West of Warsaw"
 categories: work
+featured: false
 ---
 
 <div id="description">

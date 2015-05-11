@@ -3,6 +3,7 @@ layout: post
 title: "Story Drifter"
 date: "December 2009"
 categories: work
+featured: false
 thumbnail: "../assets/img/portfolio/story-drifter-thumbnail.png"
 slug: "Exploratory learning and discovery made easy."
 ---

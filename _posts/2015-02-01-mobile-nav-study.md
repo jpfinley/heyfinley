@@ -3,6 +3,7 @@ layout: post
 title: "Mobile Navigation Study"
 date: "February 2015"
 categories: work
+featured: true
 thumbnail: "../assets/img/portfolio/mobile-navigation-study-thumbnail.png"
 slug: "Evolving a design for clarity and ease of use."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "UX Design Resources"
 date: "March 2015"
 categories: work
+featured: true
 thumbnail: "../assets/img/portfolio/ux-resources-thumbnail.svg"
 slug: "A jumping-off point for those about to design."
 ---

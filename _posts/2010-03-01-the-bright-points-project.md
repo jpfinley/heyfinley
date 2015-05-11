@@ -2,6 +2,7 @@
 layout: post
 title: "The Bright Points Project"
 categories: work
+featured: false
 date: "March 2010"
 thumbnail: "../assets/img/portfolio/bright-points-project-thumbnail.png"
 slug: "Creating a shared experience for visitors of the High Line."

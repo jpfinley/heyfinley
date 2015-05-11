@@ -3,6 +3,7 @@ layout: post
 title: "Fortnighter"
 date: "October 2012"
 categories: work
+featured: true
 thumbnail: "../assets/img/portfolio/fortnighter-thumbnail.png"
 slug: "A professional travel guide written just for you."
 ---

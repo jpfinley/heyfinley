@@ -3,6 +3,7 @@ layout: post
 title: "Center Stage"
 date: "May 2014"
 categories: work
+featured: true
 thumbnail: "../assets/img/portfolio/center-stage-thumbnail.jpg"
 slug: "A radically new retail experience."
 ---

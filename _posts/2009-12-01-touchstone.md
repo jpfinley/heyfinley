@@ -2,6 +2,7 @@
 layout: post
 title: "Touchstone"
 categories: work
+featured: false
 date: "December 2009"
 thumbnail: "../assets/img/portfolio/touchstone-thumbnail.png"
 slug: "It's like holding hands over the internet."
