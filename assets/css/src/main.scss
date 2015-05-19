@@ -19,7 +19,7 @@ $sm-width: 90.4696133%; /* 655px / 724px */
 /* ----------------------- Styles ----------------------- */
 
 body {
-  font-family: "freight-sans-pro-1","freight-sans-pro-2",sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 h1,
@@ -28,6 +28,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: $black-color;
 }
