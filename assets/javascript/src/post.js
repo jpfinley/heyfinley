@@ -20,9 +20,11 @@ $(window).scroll(function() {
 // since SVG won't respond to addClass()
 $('.logo').hover(
   function() {
+    // Append 'hover' class on ::hover
     $( '.logo-field'   ).attr('class', 'logo-field hover');
     $( '.logo-initial' ).attr('class', 'logo-initial hover');
-  }, function() {                             
+  }, function() {
+    // Remove 'hover' class after ::hover
     $( '.logo-field'   ).attr('class', 'logo-field');
     $( '.logo-initial' ).attr('class', 'logo-initial');
   }
@@ -33,4 +35,19 @@ $('#tail').click(function(event) {
   event.preventDefault();
   $('html, body').animate({scrollTop: 0}, 'slow');
   return false;
+});
+
+// Visited links adapted from http://joelcalifa.com/blog/revisiting-visited
+// For every page load, create a localStorage item with its path
+localStorage.setItem('visited-'+window.location.pathname,true);
+
+// Get the main set of post item links on the home page...
+// (They are the ones with the 'visitable' class)
+// If the post they to which they link matches a line item
+// in localStorage then they are Visited.
+// Add data-visited="true" to the link and let CSS sort it out.
+$( ".visitable" ).each(function( index ) {
+  if ( localStorage.getItem('visited-' + $( this ).attr('href')) ) {
+    this.dataset.visited = true;
+  }
 });
