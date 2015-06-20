@@ -12,7 +12,7 @@ Samsung partnered with The Barbarian Group to develop Center Stage, an interacti
 
 ## A new approach to retail 
 
-For a shopper at Besy Buy, Center Stage is a totally new way to shop. For retailers like Best Buy, however, a fully interactive physical computing installation represents a transformation in how they approach… floor space.
+For a shopper at Best Buy, Center Stage is a totally new way to shop. For retailers like Best Buy, however, a fully interactive physical computing installation represents a transformation in how they approach… floor space.
 
 As a retailer, you only have so many square feet to devote to any particular product. Managing your space to generate as much revenue as possible is the goal, and big-box retailers must decide between placing the maximum number of SKUs and providing a pleasant shopping experience.
 

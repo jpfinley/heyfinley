@@ -8,13 +8,13 @@ thumbnail: "../assets/img/portfolio/ux-resources-thumbnail.svg"
 slug: "A jumping-off point for those about to design."
 ---
 
-I’m often asked what things a person should be reading if they are just starting out in UX. The answer is going to be different no matter who you talk to, but what follows are a few resources that informed a lot of my design upbringing.
+I’m often asked what things a person should be reading if they are just starting out in UX. The answer is going to be different no matter whom you talk to, but what follows are a few resources that informed a lot of my design upbringing.
 
 ## Fundamental Design
 
-- *[Elements of Typographical Style](http://amzn.com/0881791326)*. Jason Santa Maria once made meread this book in three days. I think I'm a better person for it.
+- *[Elements of Typographical Style](http://amzn.com/0881791326)*. Jason Santa Maria once made me read this book in three days. I think I'm a better person for it.
 - *[Understanding Comics](http://amzn.com/006097625X)*, Scott McCloud. Makes you consciously consider things you may have known all your life on only a subconscious level. One of those books that expands your mind.
-- *[The Visual Display of Quantitative Information](http://amzn.com/0961392142)*, Edward Tufte. Tufte is nearly a genre into himself, and I think this volume is his best, especially for outsiders.
+- *[The Visual Display of Quantitative Information](http://amzn.com/0961392142)*, Edward Tufte. Tufte is nearly a genre unto himself, and I think this volume is his best, especially for outsiders.
 - *[Interaction of Color](http://amzn.com/0300179359)*, Josef Albers. Albers' deep understanding of how color's relativity manifests itself is valuable for designers of all kinds.
 
 ## Interaction Design & User Experience
