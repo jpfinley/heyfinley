@@ -34,3 +34,6 @@ $('#tail').click(function(event) {
   $('html, body').animate({scrollTop: 0}, 'slow');
   return false;
 });
+
+// Lazy Loading
+var layzr = new Layzr();
