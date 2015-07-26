@@ -41,6 +41,15 @@ a:hover {
   color: $accent-color;
 }
 
+a[data-visited]:after {
+  content: '\2714  Seen';
+  padding: 0.15em 0.30em;
+  margin-left: 0.5em;
+  font-size: 60%;
+  color: $white-color;
+  background-color: $carrot;
+}
+
 ::-moz-selection {
   background-color: $accent-color;
   color: $white-color;

@@ -84,8 +84,9 @@ One of the reasons we can get away with such an exotic technology set up is by d
 
 {% image ../assets/img/portfolio/center-stage-review-2.jpg Center Stage Review 2 %}
 
-## Press
+## Press and Awards
 
+- [&#127942; &#128570; 2015 Cannes Lion for Design](http://www.canneslionsarchive.com/winners/entry/567155/centerstage)
 - [PSFK: the Future of Retail](http://www.psfk.com/2015/01/keith-butters-in-store-immersion.html)
 - [Motionographer: Interactive experiences at the human scale](http://motionographer.com/2015/03/02/interactive-experiences-at-the-human-scale-making-centerstage-with-andrew-bell-and-lutz-vogel/)
 - [AdAge: Samsung Puts Fridges and Stoves on Center Stage With High-Tech Showroom](http://adage.com/article/digital/samsung-barbarian-group-introduce-digital-showroom/294085/)
