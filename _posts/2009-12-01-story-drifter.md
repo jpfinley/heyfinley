@@ -22,7 +22,7 @@ connections about the lesson. It encourages the audience to
 ask why an event happened, instead of simply asking them to memorize a set of
 facts about a particular event.
 
-![][24]
+{% image ../assets/img/portfolio/storydrifter-0-620.png %}
 
 The Story Drifter fits into the classroom experience by allowing educators to
 comprehensively and intuitively teach about a topic on the fly. It can be used
@@ -36,9 +36,7 @@ they won't be limited to expensive, space-consuming equipment.
 
 Story Drifter was a group project with [Clint Beharry][22] and [Katie Koch][23].
 
-![][25]
+{% image ../assets/img/portfolio/storydrifter-1-620.jpg %}
 
   [22]: http://leftrightoutput.com/
   [23]: http://www.pixelkated.com/
-  [24]: ../assets/img/portfolio/storydrifter-0-620.png
-  [25]: ../assets/img/portfolio/storydrifter-1-620.jpg

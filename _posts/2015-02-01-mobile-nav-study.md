@@ -18,42 +18,42 @@ Since commenting was in scope, we were also planning on including a user profile
 
 We began designing before scope was fully signed-off, and out first revision reflected this. The app’s structure was bare-bones: it started with a view of all channels and drilled down into an individual channel and then finally into a story.
 
-![Navigation Ribbon 2](../assets/img/portfolio/navigation-ribbon-2.png)
+{% image ../assets/img/portfolio/navigation-ribbon-2.png Navigation Ribbon 2 %}
 
 In this concept, profile, favorites, and settings would be rolled up into the photo/name lockup on the top left. We thought that, while simple, backing all the way out from a story was unnecessarily difficult. We thought about (see the screenshot below) including a navigation shortcut on a story view, where tapping the channel title in the top bar would fly out a horizontally swipeable list of channels.
 
-![Navigation Ribbon 1](../assets/img/portfolio/navigation-ribbon-1.png)
+{% image ../assets/img/portfolio/navigation-ribbon-1.png Navigation Ribbon 1 %}
 
 This shortcut was nice and all, but suffered from discoverability. Turns out it didn’t matter because our next changes were to add some editorial enhancements that shook up the app’s structure.
 
 Given that users could subscribe to channels they liked, we added a Top Stories section that was the union of unread stories across all subscribed channels. The next revision reflects this:
 
-![Navigation Drawer 2](../assets/img/portfolio/navigation-drawer-2.png)
+{% image ../assets/img/portfolio/navigation-drawer-2.png Navigation Drawer 2 %}
 
 Top Stories is now the app’s “home” view, and we’ve added a more conventional navigation drawer. There are now shortcuts to the channels a user has subscribed to, and a Browse Channels button to hit when they want to find more or read others. We’ve also separated settings from the other profile bits.
 
 Then subscribed tags entered the picture: users could always navigate related stories with tags, but now they could subscribe to any tag they were interested in. We needed method of navigating to these as well:
 
-![Navigation Drawer 3](../assets/img/portfolio/navigation-drawer-3.png)
+{% image ../assets/img/portfolio/navigation-drawer-3.png Navigation Drawer 3 %}
 
 This version adds a list of subscribed tags and bumps down the list title size (those aren’t tappable), and merges (again) the settings and profile tools.
 
-Speaking of the profile–we found that Favorites was getting lost. It required tapping on the user profile button… even though  conceptually it’s a list of stories. So we detached it from the profile and moved it up top with all the other story items.
+Speaking of the profile–we found that Favorites was getting lost. It required tapping on the user profile button… even though conceptually it’s a list of stories. So we detached it from the profile and moved it up top with all the other story items.
 
 Cool, cool, but that Browse Channels button sticks out badly. Why the lone verb ‘browse’? Why is it a button when it just navigates? And can we simplify the two subscription lists?
 
-![Navigation Drawer 4](../assets/img/portfolio/navigation-drawer-4.png)
+{% image ../assets/img/portfolio/navigation-drawer-4.png Navigation Drawer 4 %}
 
 Right on. Now let’s add some context in the form of unread counts. That way people with limited time in the app can be a bit strategic.
 
-![Navigation Drawer 5](../assets/img/portfolio/navigation-drawer-5.png)
+{% image ../assets/img/portfolio/navigation-drawer-5.png Navigation Drawer 5 %}
 
 We arrive at the present day. The profile is up at the top, which provides a nice symmetry for the signed out state. It also has the side benefit of conveying ownership to the remainder of the navigation items:
 
-![Navigation Drawer 6](../assets/img/portfolio/navigation-drawer-6.png)
+{% image ../assets/img/portfolio/navigation-drawer-6.png Navigation Drawer 6 %}
 
 The Channels button takes one, predictably, to a list of channels. Their subscriptions are simply an extension of that label, indented to imply containment with the parent item. Since subscribed channels and subscribed tags are both a list of stories, we simplify things by joining the list, with channels first and tags second.
 
 Here’s everything in sequence as a .gif:
 
-![Nav Animation](../assets/img/portfolio/nav-animation.gif)
+{% image ../assets/img/portfolio/nav-animation.gif Nav Animation %}

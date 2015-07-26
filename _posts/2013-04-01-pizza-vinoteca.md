@@ -37,11 +37,11 @@ Our first task was to find a framework in which we could present the iPad menu. 
 
 Our sketches allowed us to experiment and quickly evaluate our work. We took inspiration from fashion, form editorial, from e-commerce and social media and brought them to bear on our menu.
 
-![Pizzavinoteca Full Vertical](../assets/img/portfolio/pizzavinoteca-full-vertical.png)
+{% image ../assets/img/portfolio/pizzavinoteca-full-vertical.png Pizzavinoteca Full Vertical %}
 
-![Pizzavinoteca Vertical Sidebar](../assets/img/portfolio/pizzavinoteca-vertical-sidebar.png)
+{% image ../assets/img/portfolio/pizzavinoteca-vertical-sidebar.png  Pizza Vinoteca Vertical Sidebar %}
 
-![Pizzavinoteca Pop Out](../assets/img/portfolio/pizzavinoteca-pop-out.png)
+{% image ../assets/img/portfolio/pizzavinoteca-pop-out.png Pizza Vinoteca Pop Out %}
 
 In some of these sketches, we were trying to find the right density of information. In others, we were concerned with the right way to navigate from section to section, or how to show items in the menu.
 
@@ -49,27 +49,27 @@ In some of these sketches, we were trying to find the right density of informati
 
 When the iPad app was in a good place I was free to move onto the kiosk: a 22" touchscreen display for people ordering their food to go. And since the kiosk was simpler than the app, things moved more smoothly. It's also important to consider the context of use for both menus: the iPad app was a sit-down group experience but the kiosk was about the individual, was quicker, and included things like credit card payments.
 
-![Pizzavinoteca Menu](../assets/img/portfolio/pizzavinoteca-menu.png)
+{% image ../assets/img/portfolio/pizzavinoteca-menu.png Pizza Vinoteca Menu %}
 
 Compared to the iPad app, the kiosk is more focused; the customers walk up, select from the menu, and pay. The menu is presented as a single scrollable list; touching the navigation elements at the top will scroll the list to the respective place.
 
-![Pizzavinoteca Item Detail](../assets/img/portfolio/pizzavinoteca-item-detail.png)
+{% image ../assets/img/portfolio/pizzavinoteca-item-detail.png Pizza Vinoteca Item Detail %}
 
 Tapping a menu item will bring up a detail panel. Adding that menu item will cause it to show up in your "tab".
 
-![Pizzavinoteca Running Tab](../assets/img/portfolio/pizzavinoteca-running-tab.png)
+{% image ../assets/img/portfolio/pizzavinoteca-running-tab.png Pizza Vinoteca Running Tab %}
 
 Tapping "checkout" will bring up the tab view and marks the start of the checkout funnel. From this view any item can be edited or changed in quantity.
 
-![Pizzavinoteca Enter Name](../assets/img/portfolio/pizzavinoteca-enter-name.png)
+{% image ../assets/img/portfolio/pizzavinoteca-enter-name.png Pizza Vinoteca Enter Name %}
 
 From here on out the checkout process walks customers down the road to payment and eventually, their food. Handling credit cards with a touch screen display makes it easy to sign right on the screen. When everything is all done, a confirmation view is displayed as their receipt prints.
 
-![Pizzavinoteca Complete](../assets/img/portfolio/pizzavinoteca-complete.png)
+{% image ../assets/img/portfolio/pizzavinoteca-complete.png Pizza Vinoteca Complete %}
 
 And after our visual designers took a crack at it:
 
-![Pizzavinoteca Designed Menu](../assets/img/portfolio/pizzavinoteca-designed-menu.png)
+{% image ../assets/img/portfolio/pizzavinoteca-designed-menu.png Pizza Vinoteca Designed Menu %}
 
 ## Order Tracking Display
 

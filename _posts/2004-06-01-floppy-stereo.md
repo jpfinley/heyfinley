@@ -25,24 +25,18 @@ I missed the selection, the album art, and the dusty trays and hand-written
 CD-Rs. The absence of the compact disk reminded me of another format that had
 recently gone away: the 3.5" floppy diskette.
 
-![][25]
+{% image ../assets/img/portfolio/floppystereo-2-620.jpg %}
 
 The Floppy Stereo attempts to recreate that ceremony within a single device.
 An album's playlist file is stored on a floppy disk, complete with the album
 art. When it is loaded, the playlist is read and retrieves the songs from my
 MP3 collection. Pushbutton controls are wired to a USB keypad. The
-[software][23] I wrote listens for the specific key-presses and sends the
+[software](http://gist.github.com/62457) I wrote listens for the specific key-presses and sends the
 message to the playback software.
 
-   [23]: http://gist.github.com/62457
-
-![][26]
+{% image ../assets/img/portfolio/floppystereo-1-620.jpg %}
 
 The result adds an aural, tactile, and considered interaction to an otherwise
 neglected experience.
 
-![][24]
-
-   [24]: ../assets/img/portfolio/floppystereo-0-620.jpg
-   [25]: ../assets/img/portfolio/floppystereo-2-620.jpg
-   [26]: ../assets/img/portfolio/floppystereo-1-620.jpg
+{% image ../assets/img/portfolio/floppystereo-0-620.jpg %}
