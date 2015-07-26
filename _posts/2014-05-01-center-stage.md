@@ -26,7 +26,7 @@ Designing for Center Stage meant approaching interface design in a way that was 
 
 The plain, white foam board protptype was one of the best things we ever made on this project. Many assumptions evaporated. A client, on a whim, rearranged the right-side HD panels in a subtle curve; that arrangement would make it into the final design. The prototype also told us that while Center Stage was something for one person to use, the thing is 12' wide and their activity would be on display for other shoppers. We took advantage of this by devoting much of the display space to big type, beautiful product renderings, and other tactics to get the attention of our “second audience.”
 
-![Center Stage Review 1](../assets/img/portfolio/center-stage-review-1.jpg)
+{% image ../assets/img/portfolio/center-stage-review-1.jpg Center Stage Review 1 %}
 
 Giving up so much screen area might seem a great loss to the shopper actually using Center Stage. The reality is since you are only a foot and a half from the screen, that area is outside your field of vision. It ends up working out rather well.
 
@@ -40,11 +40,11 @@ This video displays across all screens and is punctuated with a giant call to ac
 
 When the user taps on the call to action they are presented with a welcome screen that explains the basics of navigation within this unusual experience. After that they are free to explore and interact at their own pace.
 
-![Center Stage Category](../assets/img/portfolio/center-stage-category.jpg)
+{% image  ../assets/img/portfolio/center-stage-category.jpg Center Stage Category %}
 
 *Category view*
 
-![Center Stage Product](../assets/img/portfolio/center-stage-product.jpg)
+{% image  ../assets/img/portfolio/center-stage-product.jpg Center Stage Product %}
 
 *Product view*
 
@@ -52,17 +52,17 @@ When the user taps on the call to action they are presented with a welcome scree
 
 Determining where to place interface controls was easily the biggest single design problem I encountered on Center Stage. We had more pixels to work with than any other project I’ve ever encountered, but we were still constrained by the fact that only the single large screen is touch-enabled. In addition, the client specified that all products must be rendered at life-size, leaving virtually no room for anything else when you display a refrigerator or other large appliance. 
 
-![Center Stage Wireframes](../assets/img/portfolio/center-stage-wireframes.gif)
+{% image ../assets/img/portfolio/center-stage-wireframes.gif Center Stage Wireframes %}
 
 *Rejected navigation iterations.*
 
 We experimented early on with massive pull-down sheets, zooming interfaces, and something that could be described as a “two-dimensional carousel.” We settled on a navigation module whose content was contextual and could be minimized when not in use.
 
-![Center Stage Menu 3](../assets/img/portfolio/center-stage-beta-menu-poster.png)
+{% image ../assets/img/portfolio/center-stage-beta-menu-poster.png Center Stage Menu 3 %}
 
-![Center Stage Menu 1](../assets/img/portfolio/center-stage-menu-1.png)
+{% image ../assets/img/portfolio/center-stage-menu-1.png Center Stage Menu 1 %}
 
-![Center Stage Menu 2](../assets/img/portfolio/center-stage-menu-2.png)
+{% image ../assets/img/portfolio/center-stage-menu-2.png Center Stage Menu 2 %}
 
 The radial nav kept things compact (and Fitts-ian) on the big screen and let the content take the spotlight. It also kept things from feeling too web- or app-like, both of which didn't feel exciting enough or fitting for an experience like this.
 
@@ -72,7 +72,7 @@ In addition to category and product navigation, we also designed a filtering mec
 
 Special product features were shown in an interactive “sandbox” where shoppers could see how, say, WaterWall works.
 
-![Center Stage Feature](../assets/img/portfolio/center-stage-feature.jpg)
+{% image ../assets/img/portfolio/center-stage-feature.jpg Center Stage Feature %}
 
 ## Aside: High-tech retail
 
@@ -82,7 +82,7 @@ Center Stage was envisioned as a way to showcase some of Samsung’s forward-thi
 
 One of the reasons we can get away with such an exotic technology set up is by developing Center Stage in [Cinder](http://libcinder.org), our open-source creative coding framework. Cinder is able to provide cinema-grade visual effects, dynamic data, and responsive interaction and it was perfectly suited to the task.
 
-![Center Stage Review 2](../assets/img/portfolio/center-stage-review-2.jpg)
+{% image ../assets/img/portfolio/center-stage-review-2.jpg Center Stage Review 2 %}
 
 ## Press
 
