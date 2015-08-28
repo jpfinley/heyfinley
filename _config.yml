@@ -1,6 +1,8 @@
 name: John Finley's Online Portfolio
 permalink: none
-markdown: redcarpet
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
 highlighter: pygments
 include: ['.htaccess']
 exclude: [
