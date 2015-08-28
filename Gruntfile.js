@@ -8,6 +8,7 @@ module.exports = function(grunt) {
         js: {
           src: [
             'assets/javascript/src/jquery.min.js',
+            'assets/javascript/src/layzr.min.js',
             'assets/javascript/src/post.js',
             'assets/javascript/src/particle-field.js'
           ],

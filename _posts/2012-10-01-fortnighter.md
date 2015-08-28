@@ -18,11 +18,11 @@ After going through the signup and itinerary creation process myself, I had a pr
 
 The home page's design was focused on education and conversion. Fortnighter wanted to get people signed up and buying, and that meant succinctly explaining what was going on. I enhanced the main call to action with a brief 1-2-3 of how Fortnighter works. Below that is a sort of carousel that goes a bit more in depth on the itinerary itself: how it's made, how you use it, and so forth.
 
-![Fortnighter Homepage](../assets/img/portfolio/fortnighter-homepage.png)
+{% image ../assets/img/portfolio/fortnighter-homepage.png Fortnighter Homepage %}
 
 The itinerary list is easy to manage. Each includes handy metadata, social sharing buttons, and of course its status (since itineraries are personalized, they can take up to a week to complete).
 
-![Fortnighter Trip List](../assets/img/portfolio/fortnighter-trip-list.png)
+{% image ../assets/img/portfolio/fortnighter-trip-list.png Fortnighter Trip List %}
 
 ## The Itinerary Questionnaire
 
@@ -32,11 +32,11 @@ The questionnaire is nothing more than a straight form with all of the questions
 
 For starters, I replaced the questionnaire's progress indicator with a photographic "avatar" of their travel destination. It springs into action as soon as you tell Fortnighter where you are going (see below).
 
-![Fortnighter Completion](../assets/img/portfolio/fortnighter-completion.jpg)
+{% image ../assets/img/portfolio/fortnighter-completion.jpg Fortnighter Completion %}
 
 This avatar follows you through the questionnaire, tracking your progress. For every question you answer, a bit of the travel avatar is filled in. By the end of the questionnaire the picture is complete (and hopefully the questionnaire didn't feel quite so tedious).
 
-![Fortnighter Questionnaire](../assets/img/portfolio/fortnighter-questionnaire.png)
+{% image ../assets/img/portfolio/fortnighter-questionnaire.png Fortnighter Questionnaire %}
 
 Since the questionnaire is a lengthy affair, I stipulated that users have the ability to save questionnaires and come back to them later. Data collection such as this can pave the way for interesting analytics features, and Fortnighter can use customer's answers as suggested defaults for future questionnaires.
 
@@ -48,7 +48,7 @@ I also consulted on ways to improve the Fortnighter experience –  from the sit
 
 Right now, an account is required to get anywhere in the itinerary process. Putting some of the more fun parts of the questionnaire up front—and allowing users to create an account with only an email address—might be a way to increase signups.
 
-![Fortnighter New Account](../assets/img/portfolio/fortnighter-new-account.png)
+{% image ../assets/img/portfolio/fortnighter-new-account.png Fortnighter New Account %}
 
 The goal is to get people to see the activity as an easy way to make the site more personal, not as creating yet another web account. Even if they don’t buy right away, if Fortnighter can convince them to create an account, there is an opportunity to message them in the future.
 

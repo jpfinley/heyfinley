@@ -19,12 +19,10 @@ Liu][25], and [Gene Lu][26].
   [25]: http://www.csie.ntu.edu.tw/~r93122/
   [26]: http://www.genelu.com/
 
-Situated along a stretch of abandoned elevated railway, [the High Line][27] is
+Situated along a stretch of abandoned elevated railway, [the High Line](http://thehighline.org/) is
 a public park on Manhattan's west side. The elevated perspective lets visitors
 see the goings-on of the street in a whole new way. The west side location
 provides views of the Hudson River and the New Jersey skyline.
-
-  [27]: http://thehighline.org/
 
 {% vimeo 10528836 %}
 
@@ -44,7 +42,7 @@ brightness, encouraging interactions between the program's attendees. The High
 Line becomes transformed into a stream of pinpoints, each a visitor carrying
 on the light left behind by the setting sun.
 
-![][31]
+{% image ../assets/img/portfolio/bright-points-project-0-620.jpg %}
 
 Visitors travel northward along the park's path until they reach the 17th
 street amphitheater. Here, the experience culminates at the Sunset Wall. A
@@ -61,18 +59,16 @@ The entire class was given the prompt to "create a networked, mobile, or
 interactive installation that enhances or extends the experience of the High
 Line park."
 
-![][32]
+{% image ../assets/img/portfolio/bright-points-project-4-620.png %}
 
 We began with visits to the park to familiarize ourselves with the environment
 and conduct man-on-the-street interviews. We asked visitors about the nature
 of their visit, their use of smartphones and other technology, and what they
 liked about the High Line experience. We also interviewed Blake DeBoer, an
-Associate with [Taconic Builders][28] and High Line & architectural
+Associate with [Taconic Builders](http://www.taconicbuilders.com/) and High Line & architectural
 enthusiast.
 
-  [28]: http://www.taconicbuilders.com/
-
-![][33]
+{% image ../assets/img/portfolio/bright-points-project-1-620.png %}
 
 From there, we used a K-J analysis to get a better sense of where we felt we
 could intervene on people's visits to the High Line. We focused on the journey
@@ -85,22 +81,13 @@ photograph illustrations of real people interacting with Bright Points
 lanterns--and shot on the High Line itself--a user journey would aid our
 audience in believing our story.
 
-![][34]
+{% image ../assets/img/portfolio/bright-points-project-3-620.jpg %}
 
 And just to make our presentation all the more believable, we created physical
-prototypes of the Bright Points Lanterns. Using an [Arduino][29]
+prototypes of the Bright Points Lanterns. Using an [Arduino](http://arduino.cc/)
 microcontroller, the Lanterns illuminate at sunset and respond to other
 Lanterns nearby.
 
-  [29]: http://arduino.cc/
-
 ## Press
 
-The Bright Points Project was featured on [Core 77][30].
-
-  [30]: http://www.core77.com/blog/technology/sva_graduate_interaction_design_students_eye_the_high_line_16367.asp
-
-  [31]: ../assets/img/portfolio/bright-points-project-0-620.jpg
-  [32]: ../assets/img/portfolio/bright-points-project-4-620.png
-  [33]: ../assets/img/portfolio/bright-points-project-1-620.png
-  [34]: ../assets/img/portfolio/bright-points-project-3-620.jpg
+The Bright Points Project was featured on [Core 77](http://www.core77.com/blog/technology/sva_graduate_interaction_design_students_eye_the_high_line_16367.asp).

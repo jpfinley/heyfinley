@@ -30,17 +30,13 @@ the XBee radio, and capacitative sensors. The physical forms use various
 materials and shapes to remind the user what it was like to have human
 contact. The Arduino source code can be found [here][24].
 
-![][25]
+{% image ../assets/img/portfolio/touchstone-0-620.jpg %}
 
-![][26]
+{% image ../assets/img/portfolio/touchstone-2-620.jpg %}
 
-![][27]
+{% image ../assets/img/portfolio/touchstone-3-620.jpg %}
 
-![][28]
+{% image ../assets/img/portfolio/touchstone-4-620.jpg %}
 
   [23]: http://jeffkirsch.com/
   [24]: http://github.com/jpfinley/touchstone
-  [25]: ../assets/img/portfolio/touchstone-0-620.jpg
-  [26]: ../assets/img/portfolio/touchstone-2-620.jpg
-  [27]: ../assets/img/portfolio/touchstone-3-620.jpg
-  [28]: ../assets/img/portfolio/touchstone-4-620.jpg
